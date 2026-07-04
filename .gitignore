@@ -1,0 +1,20 @@
+# === GitHub 공개 배포 제외 규칙 ===
+# GitHub Pages에는 data/ + 프론트엔드 파일만 공개됩니다.
+
+# 비밀키 — 절대 커밋 금지 (공개 시 즉시 노출됨)
+.env
+backend/.env
+
+# 백엔드·분석·역할 프롬프트 (공개 대상 아님, PM 방침)
+backend/
+analysis/
+agents/
+
+# 원본/대용량 데이터 · 중간 산출물
+*.csv
+netflix_eda_report.html
+concept_mockups.html
+
+# 파이썬 캐시
+__pycache__/
+*.pyc

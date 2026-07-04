@@ -1,0 +1,3454 @@
+{
+  "as_of": "2026-07-04",
+  "region": "KR",
+  "provider": "Netflix",
+  "by_genre": {
+    "action": [
+      {
+        "rank": 1,
+        "tmdb_id": 1202033,
+        "title": "Enola Holmes 3",
+        "release_year": 2026,
+        "popularity": 167.0907,
+        "vote_average": 7.063,
+        "vote_count": 151,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/7kRYHH9H9PjBFwz1FprbHB2AAjI.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/7kRYHH9H9PjBFwz1FprbHB2AAjI.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1202033",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 1,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Enola Holmes 3'는 리뷰 표본이 적어(리뷰 1편) 정량 신호로 대체: 평점 7.063/10·투표 151표."
+        }
+      },
+      {
+        "rank": 2,
+        "tmdb_id": 1515729,
+        "title": "Blast",
+        "release_year": 2026,
+        "popularity": 55.3263,
+        "vote_average": 6.9,
+        "vote_count": 26,
+        "rating_source": "tmdb",
+        "low_vote": true,
+        "poster_path": "/mZZBUaAXSeEeO3RovqJssBQyxfK.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/mZZBUaAXSeEeO3RovqJssBQyxfK.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1515729",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 0,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Blast'는 리뷰 표본이 적어(리뷰 0편) 정량 신호로 대체: 평점 6.9/10·투표 26표."
+        }
+      },
+      {
+        "rank": 3,
+        "tmdb_id": 1318447,
+        "title": "Apex",
+        "release_year": 2026,
+        "popularity": 55.0302,
+        "vote_average": 6.822,
+        "vote_count": 1568,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1318447",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 5,
+          "positive_count": 2,
+          "strengths": [
+            "세계관·스토리",
+            "몰입·재미",
+            "연출·각본"
+          ],
+          "summary": "'Apex'가 먹히는 이유: 세계관·스토리, 몰입·재미, 연출·각본에서 호평. (긍정 리뷰 2/5편 기준)"
+        }
+      },
+      {
+        "rank": 4,
+        "tmdb_id": 122,
+        "title": "The Lord of the Rings: The Return of the King",
+        "release_year": 2003,
+        "popularity": 46.0062,
+        "vote_average": 8.5,
+        "vote_count": 26765,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/122",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 8,
+          "positive_count": 6,
+          "strengths": [
+            "세계관·스토리",
+            "영상미",
+            "몰입·재미"
+          ],
+          "summary": "'The Lord of the Rings: The Return of the King'가 먹히는 이유: 세계관·스토리, 영상미, 몰입·재미에서 호평. (긍정 리뷰 6/8편 기준)"
+        }
+      },
+      {
+        "rank": 5,
+        "tmdb_id": 120,
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "release_year": 2001,
+        "popularity": 44.3385,
+        "vote_average": 8.437,
+        "vote_count": 27765,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/120",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 11,
+          "positive_count": 11,
+          "strengths": [
+            "세계관·스토리",
+            "연기·케미",
+            "음악·OST"
+          ],
+          "summary": "'The Lord of the Rings: The Fellowship of the Ring'가 먹히는 이유: 세계관·스토리, 연기·케미, 음악·OST에서 호평. (긍정 리뷰 11/11편 기준)"
+        }
+      },
+      {
+        "rank": 6,
+        "tmdb_id": 1582770,
+        "title": "Dhurandhar: The Revenge",
+        "release_year": 2026,
+        "popularity": 31.298,
+        "vote_average": 7.333,
+        "vote_count": 126,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/ptTwQES14pr5c3aZvJg56YlYgb1.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/ptTwQES14pr5c3aZvJg56YlYgb1.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1582770",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 2,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Dhurandhar: The Revenge'는 리뷰 표본이 적어(리뷰 2편) 정량 신호로 대체: 평점 7.333/10·투표 126표."
+        }
+      },
+      {
+        "rank": 7,
+        "tmdb_id": 1265609,
+        "title": "War Machine",
+        "release_year": 2026,
+        "popularity": 39.248,
+        "vote_average": 7.413,
+        "vote_count": 2012,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/rFhKkXhk7ClU03jQ5rHIApJDwev.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/rFhKkXhk7ClU03jQ5rHIApJDwev.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1265609",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 8,
+          "positive_count": 1,
+          "strengths": [
+            "세계관·스토리",
+            "연출·각본",
+            "연기·케미"
+          ],
+          "summary": "'War Machine'가 먹히는 이유: 세계관·스토리, 연출·각본, 연기·케미에서 호평. (긍정 리뷰 1/8편 기준)"
+        }
+      },
+      {
+        "rank": 8,
+        "tmdb_id": 121,
+        "title": "The Lord of the Rings: The Two Towers",
+        "release_year": 2002,
+        "popularity": 32.8187,
+        "vote_average": 8.421,
+        "vote_count": 24059,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/121",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 7,
+          "positive_count": 6,
+          "strengths": [
+            "세계관·스토리",
+            "몰입·재미",
+            "음악·OST"
+          ],
+          "summary": "'The Lord of the Rings: The Two Towers'가 먹히는 이유: 세계관·스토리, 몰입·재미, 음악·OST에서 호평. (긍정 리뷰 6/7편 기준)"
+        }
+      },
+      {
+        "rank": 9,
+        "tmdb_id": 1630423,
+        "title": "My Dearest Assassin",
+        "release_year": 2026,
+        "popularity": 32.0405,
+        "vote_average": 8.602,
+        "vote_count": 259,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/ul4dQcA68mtSx8J56N5gEcaCCtP.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/ul4dQcA68mtSx8J56N5gEcaCCtP.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1630423",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 0,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'My Dearest Assassin'는 리뷰 표본이 적어(리뷰 0편) 정량 신호로 대체: 평점 8.602/10·투표 259표."
+        }
+      },
+      {
+        "rank": 10,
+        "tmdb_id": 519182,
+        "title": "Despicable Me 4",
+        "release_year": 2024,
+        "popularity": 32.9612,
+        "vote_average": 6.986,
+        "vote_count": 3238,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/wWba3TaojhK7NdycRhoQpsG0FaH.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/wWba3TaojhK7NdycRhoQpsG0FaH.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/519182",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 7,
+          "positive_count": 1,
+          "strengths": [
+            "몰입·재미",
+            "세계관·스토리",
+            "연기·케미"
+          ],
+          "summary": "'Despicable Me 4'가 먹히는 이유: 몰입·재미, 세계관·스토리, 연기·케미에서 호평. (긍정 리뷰 1/7편 기준)"
+        }
+      }
+    ],
+    "adventure": [
+      {
+        "rank": 1,
+        "tmdb_id": 1202033,
+        "title": "Enola Holmes 3",
+        "release_year": 2026,
+        "popularity": 167.0907,
+        "vote_average": 7.063,
+        "vote_count": 151,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/7kRYHH9H9PjBFwz1FprbHB2AAjI.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/7kRYHH9H9PjBFwz1FprbHB2AAjI.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1202033",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 1,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Enola Holmes 3'는 리뷰 표본이 적어(리뷰 1편) 정량 신호로 대체: 평점 7.063/10·투표 151표."
+        }
+      },
+      {
+        "rank": 2,
+        "tmdb_id": 1007757,
+        "title": "Swapped",
+        "release_year": 2026,
+        "popularity": 102.6184,
+        "vote_average": 8.946,
+        "vote_count": 1850,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1007757",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 1,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Swapped'는 리뷰 표본이 적어(리뷰 1편) 정량 신호로 대체: 평점 8.946/10·투표 1850표."
+        }
+      },
+      {
+        "rank": 3,
+        "tmdb_id": 122,
+        "title": "The Lord of the Rings: The Return of the King",
+        "release_year": 2003,
+        "popularity": 46.0062,
+        "vote_average": 8.5,
+        "vote_count": 26765,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/122",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 8,
+          "positive_count": 6,
+          "strengths": [
+            "세계관·스토리",
+            "영상미",
+            "몰입·재미"
+          ],
+          "summary": "'The Lord of the Rings: The Return of the King'가 먹히는 이유: 세계관·스토리, 영상미, 몰입·재미에서 호평. (긍정 리뷰 6/8편 기준)"
+        }
+      },
+      {
+        "rank": 4,
+        "tmdb_id": 120,
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "release_year": 2001,
+        "popularity": 44.3385,
+        "vote_average": 8.437,
+        "vote_count": 27765,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/120",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 11,
+          "positive_count": 11,
+          "strengths": [
+            "세계관·스토리",
+            "연기·케미",
+            "음악·OST"
+          ],
+          "summary": "'The Lord of the Rings: The Fellowship of the Ring'가 먹히는 이유: 세계관·스토리, 연기·케미, 음악·OST에서 호평. (긍정 리뷰 11/11편 기준)"
+        }
+      },
+      {
+        "rank": 5,
+        "tmdb_id": 1184918,
+        "title": "The Wild Robot",
+        "release_year": 2024,
+        "popularity": 35.2038,
+        "vote_average": 8.314,
+        "vote_count": 6212,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/eG9lz41mJqsI4J6ubMtVqD26q2J.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/eG9lz41mJqsI4J6ubMtVqD26q2J.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1184918",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 7,
+          "positive_count": 6,
+          "strengths": [
+            "세계관·스토리",
+            "몰입·재미",
+            "영상미"
+          ],
+          "summary": "'The Wild Robot'가 먹히는 이유: 세계관·스토리, 몰입·재미, 영상미에서 호평. (긍정 리뷰 6/7편 기준)"
+        }
+      },
+      {
+        "rank": 6,
+        "tmdb_id": 121,
+        "title": "The Lord of the Rings: The Two Towers",
+        "release_year": 2002,
+        "popularity": 32.8187,
+        "vote_average": 8.421,
+        "vote_count": 24059,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/121",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 7,
+          "positive_count": 6,
+          "strengths": [
+            "세계관·스토리",
+            "몰입·재미",
+            "음악·OST"
+          ],
+          "summary": "'The Lord of the Rings: The Two Towers'가 먹히는 이유: 세계관·스토리, 몰입·재미, 음악·OST에서 호평. (긍정 리뷰 6/7편 기준)"
+        }
+      },
+      {
+        "rank": 7,
+        "tmdb_id": 324857,
+        "title": "Spider-Man: Into the Spider-Verse",
+        "release_year": 2018,
+        "popularity": 29.5451,
+        "vote_average": 8.4,
+        "vote_count": 17356,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/324857",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 53,
+          "positive_count": 2,
+          "strengths": [
+            "세계관·스토리",
+            "몰입·재미",
+            "영상미"
+          ],
+          "summary": "'Spider-Man: Into the Spider-Verse'가 먹히는 이유: 세계관·스토리, 몰입·재미, 영상미에서 호평. (긍정 리뷰 2/53편 기준)"
+        }
+      },
+      {
+        "rank": 8,
+        "tmdb_id": 4935,
+        "title": "Howl's Moving Castle",
+        "release_year": 2004,
+        "popularity": 28.3682,
+        "vote_average": 8.388,
+        "vote_count": 11172,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/13kOl2v0nD2OLbVSHnHk8GUFEhO.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/13kOl2v0nD2OLbVSHnHk8GUFEhO.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/4935",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 2,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Howl's Moving Castle'는 리뷰 표본이 적어(리뷰 2편) 정량 신호로 대체: 평점 8.388/10·투표 11172표."
+        }
+      },
+      {
+        "rank": 9,
+        "tmdb_id": 497582,
+        "title": "Enola Holmes",
+        "release_year": 2020,
+        "popularity": 33.9781,
+        "vote_average": 7.224,
+        "vote_count": 6618,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/riYInlsq2kf1AWoGm80JQW5dLKp.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/riYInlsq2kf1AWoGm80JQW5dLKp.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/497582",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 4,
+          "positive_count": 3,
+          "strengths": [
+            "세계관·스토리",
+            "연기·케미",
+            "몰입·재미"
+          ],
+          "summary": "'Enola Holmes'가 먹히는 이유: 세계관·스토리, 연기·케미, 몰입·재미에서 호평. (긍정 리뷰 3/4편 기준)"
+        }
+      },
+      {
+        "rank": 10,
+        "tmdb_id": 315635,
+        "title": "Spider-Man: Homecoming",
+        "release_year": 2017,
+        "popularity": 26.1802,
+        "vote_average": 7.331,
+        "vote_count": 23272,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/c24sv2weTHPsmDa7jEMN0m2P3RT.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/c24sv2weTHPsmDa7jEMN0m2P3RT.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/315635",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 11,
+          "positive_count": 8,
+          "strengths": [
+            "세계관·스토리",
+            "영상미",
+            "몰입·재미"
+          ],
+          "summary": "'Spider-Man: Homecoming'가 먹히는 이유: 세계관·스토리, 영상미, 몰입·재미에서 호평. (긍정 리뷰 8/11편 기준)"
+        }
+      }
+    ],
+    "animation": [
+      {
+        "rank": 1,
+        "tmdb_id": 1007757,
+        "title": "Swapped",
+        "release_year": 2026,
+        "popularity": 102.6184,
+        "vote_average": 8.946,
+        "vote_count": 1850,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1007757",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 1,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Swapped'는 리뷰 표본이 적어(리뷰 1편) 정량 신호로 대체: 평점 8.946/10·투표 1850표."
+        }
+      },
+      {
+        "rank": 2,
+        "tmdb_id": 1297842,
+        "title": "GOAT",
+        "release_year": 2026,
+        "popularity": 58.3072,
+        "vote_average": 8.108,
+        "vote_count": 863,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1297842",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 4,
+          "positive_count": 1,
+          "strengths": [
+            "몰입·재미",
+            "연기·케미",
+            "음악·OST"
+          ],
+          "summary": "'GOAT'가 먹히는 이유: 몰입·재미, 연기·케미, 음악·OST에서 호평. (긍정 리뷰 1/4편 기준)"
+        }
+      },
+      {
+        "rank": 3,
+        "tmdb_id": 803796,
+        "title": "KPop Demon Hunters",
+        "release_year": 2025,
+        "popularity": 44.7308,
+        "vote_average": 8.02,
+        "vote_count": 2944,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/zT7Lhw3BhJbMkRqm9Zlx2YGMsY0.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/zT7Lhw3BhJbMkRqm9Zlx2YGMsY0.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/803796",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 6,
+          "positive_count": 5,
+          "strengths": [
+            "세계관·스토리",
+            "음악·OST",
+            "연출·각본"
+          ],
+          "summary": "'KPop Demon Hunters'가 먹히는 이유: 세계관·스토리, 음악·OST, 연출·각본에서 호평. (긍정 리뷰 5/6편 기준)"
+        }
+      },
+      {
+        "rank": 4,
+        "tmdb_id": 129,
+        "title": "Spirited Away",
+        "release_year": 2001,
+        "popularity": 41.6633,
+        "vote_average": 8.534,
+        "vote_count": 18482,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/129",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 2,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Spirited Away'는 리뷰 표본이 적어(리뷰 2편) 정량 신호로 대체: 평점 8.534/10·투표 18482표."
+        }
+      },
+      {
+        "rank": 5,
+        "tmdb_id": 1184918,
+        "title": "The Wild Robot",
+        "release_year": 2024,
+        "popularity": 35.2038,
+        "vote_average": 8.314,
+        "vote_count": 6212,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/eG9lz41mJqsI4J6ubMtVqD26q2J.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/eG9lz41mJqsI4J6ubMtVqD26q2J.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1184918",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 7,
+          "positive_count": 6,
+          "strengths": [
+            "세계관·스토리",
+            "몰입·재미",
+            "영상미"
+          ],
+          "summary": "'The Wild Robot'가 먹히는 이유: 세계관·스토리, 몰입·재미, 영상미에서 호평. (긍정 리뷰 6/7편 기준)"
+        }
+      },
+      {
+        "rank": 6,
+        "tmdb_id": 519182,
+        "title": "Despicable Me 4",
+        "release_year": 2024,
+        "popularity": 32.9612,
+        "vote_average": 6.986,
+        "vote_count": 3238,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/wWba3TaojhK7NdycRhoQpsG0FaH.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/wWba3TaojhK7NdycRhoQpsG0FaH.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/519182",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 7,
+          "positive_count": 1,
+          "strengths": [
+            "몰입·재미",
+            "세계관·스토리",
+            "연기·케미"
+          ],
+          "summary": "'Despicable Me 4'가 먹히는 이유: 몰입·재미, 세계관·스토리, 연기·케미에서 호평. (긍정 리뷰 1/7편 기준)"
+        }
+      },
+      {
+        "rank": 7,
+        "tmdb_id": 324857,
+        "title": "Spider-Man: Into the Spider-Verse",
+        "release_year": 2018,
+        "popularity": 29.5451,
+        "vote_average": 8.4,
+        "vote_count": 17356,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/324857",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 53,
+          "positive_count": 2,
+          "strengths": [
+            "세계관·스토리",
+            "몰입·재미",
+            "영상미"
+          ],
+          "summary": "'Spider-Man: Into the Spider-Verse'가 먹히는 이유: 세계관·스토리, 몰입·재미, 영상미에서 호평. (긍정 리뷰 2/53편 기준)"
+        }
+      },
+      {
+        "rank": 8,
+        "tmdb_id": 4935,
+        "title": "Howl's Moving Castle",
+        "release_year": 2004,
+        "popularity": 28.3682,
+        "vote_average": 8.388,
+        "vote_count": 11172,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/13kOl2v0nD2OLbVSHnHk8GUFEhO.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/13kOl2v0nD2OLbVSHnHk8GUFEhO.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/4935",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 2,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Howl's Moving Castle'는 리뷰 표본이 적어(리뷰 2편) 정량 신호로 대체: 평점 8.388/10·투표 11172표."
+        }
+      },
+      {
+        "rank": 9,
+        "tmdb_id": 1598785,
+        "title": "Milky☆Subway: The Galactic Limited Express - the Movie",
+        "release_year": 2026,
+        "popularity": 19.1606,
+        "vote_average": 9.3,
+        "vote_count": 28,
+        "rating_source": "tmdb",
+        "low_vote": true,
+        "poster_path": "/brQf6Odu4S6WzfVLuXLbOcbsOP2.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/brQf6Odu4S6WzfVLuXLbOcbsOP2.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1598785",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 0,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Milky☆Subway: The Galactic Limited Express - the Movie'는 리뷰 표본이 적어(리뷰 0편) 정량 신호로 대체: 평점 9.3/10·투표 28표."
+        }
+      },
+      {
+        "rank": 10,
+        "tmdb_id": 9502,
+        "title": "Kung Fu Panda",
+        "release_year": 2008,
+        "popularity": 19.1372,
+        "vote_average": 7.327,
+        "vote_count": 12718,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/wWt4JYXTg5Wr3xBW2phBrMKgp3x.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/wWt4JYXTg5Wr3xBW2phBrMKgp3x.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/9502",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 5,
+          "positive_count": 4,
+          "strengths": [
+            "세계관·스토리",
+            "몰입·재미",
+            "음악·OST"
+          ],
+          "summary": "'Kung Fu Panda'가 먹히는 이유: 세계관·스토리, 몰입·재미, 음악·OST에서 호평. (긍정 리뷰 4/5편 기준)"
+        }
+      }
+    ],
+    "comedy": [
+      {
+        "rank": 1,
+        "tmdb_id": 1397385,
+        "title": "Little Brother",
+        "release_year": 2026,
+        "popularity": 123.426,
+        "vote_average": 6.33,
+        "vote_count": 162,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/hIJpXb7Xaje2mebN9ylsS7blQzP.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/hIJpXb7Xaje2mebN9ylsS7blQzP.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1397385",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 0,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Little Brother'는 리뷰 표본이 적어(리뷰 0편) 정량 신호로 대체: 평점 6.33/10·투표 162표."
+        }
+      },
+      {
+        "rank": 2,
+        "tmdb_id": 614945,
+        "title": "Voicemails for Isabelle",
+        "release_year": 2026,
+        "popularity": 109.1133,
+        "vote_average": 8.348,
+        "vote_count": 407,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/canZTWSxACSnAluir3dCtMxKpA1.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/canZTWSxACSnAluir3dCtMxKpA1.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/614945",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 0,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Voicemails for Isabelle'는 리뷰 표본이 적어(리뷰 0편) 정량 신호로 대체: 평점 8.348/10·투표 407표."
+        }
+      },
+      {
+        "rank": 3,
+        "tmdb_id": 1239134,
+        "title": "Bhooth Bangla",
+        "release_year": 2026,
+        "popularity": 55.7913,
+        "vote_average": 5.435,
+        "vote_count": 46,
+        "rating_source": "tmdb",
+        "low_vote": true,
+        "poster_path": "/ArIS4vwUxdhm3j7tsTHmffdfU8W.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/ArIS4vwUxdhm3j7tsTHmffdfU8W.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1239134",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 0,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Bhooth Bangla'는 리뷰 표본이 적어(리뷰 0편) 정량 신호로 대체: 평점 5.435/10·투표 46표."
+        }
+      },
+      {
+        "rank": 4,
+        "tmdb_id": 1297842,
+        "title": "GOAT",
+        "release_year": 2026,
+        "popularity": 58.3072,
+        "vote_average": 8.108,
+        "vote_count": 863,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1297842",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 4,
+          "positive_count": 1,
+          "strengths": [
+            "몰입·재미",
+            "연기·케미",
+            "음악·OST"
+          ],
+          "summary": "'GOAT'가 먹히는 이유: 몰입·재미, 연기·케미, 음악·OST에서 호평. (긍정 리뷰 1/4편 기준)"
+        }
+      },
+      {
+        "rank": 5,
+        "tmdb_id": 803796,
+        "title": "KPop Demon Hunters",
+        "release_year": 2025,
+        "popularity": 44.7308,
+        "vote_average": 8.02,
+        "vote_count": 2944,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/zT7Lhw3BhJbMkRqm9Zlx2YGMsY0.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/zT7Lhw3BhJbMkRqm9Zlx2YGMsY0.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/803796",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 6,
+          "positive_count": 5,
+          "strengths": [
+            "세계관·스토리",
+            "음악·OST",
+            "연출·각본"
+          ],
+          "summary": "'KPop Demon Hunters'가 먹히는 이유: 세계관·스토리, 음악·OST, 연출·각본에서 호평. (긍정 리뷰 5/6편 기준)"
+        }
+      },
+      {
+        "rank": 6,
+        "tmdb_id": 680,
+        "title": "Pulp Fiction",
+        "release_year": 1994,
+        "popularity": 41.3331,
+        "vote_average": 8.482,
+        "vote_count": 30363,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/680",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 6,
+          "positive_count": 4,
+          "strengths": [
+            "연출·각본",
+            "세계관·스토리",
+            "음악·OST"
+          ],
+          "summary": "'Pulp Fiction'가 먹히는 이유: 연출·각본, 세계관·스토리, 음악·OST에서 호평. (긍정 리뷰 4/6편 기준)"
+        }
+      },
+      {
+        "rank": 7,
+        "tmdb_id": 496243,
+        "title": "Parasite",
+        "release_year": 2019,
+        "popularity": 38.0989,
+        "vote_average": 8.492,
+        "vote_count": 20814,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/496243",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 16,
+          "positive_count": 14,
+          "strengths": [
+            "세계관·스토리",
+            "음악·OST",
+            "연출·각본"
+          ],
+          "summary": "'Parasite'가 먹히는 이유: 세계관·스토리, 음악·OST, 연출·각본에서 호평. (긍정 리뷰 14/16편 기준)"
+        }
+      },
+      {
+        "rank": 8,
+        "tmdb_id": 1358005,
+        "title": "Office Romance",
+        "release_year": 2026,
+        "popularity": 29.7903,
+        "vote_average": 6.451,
+        "vote_count": 278,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/1HRUTqEVDmJC4L6tp6zd85MI6uH.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/1HRUTqEVDmJC4L6tp6zd85MI6uH.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1358005",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 1,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Office Romance'는 리뷰 표본이 적어(리뷰 1편) 정량 신호로 대체: 평점 6.451/10·투표 278표."
+        }
+      },
+      {
+        "rank": 9,
+        "tmdb_id": 519182,
+        "title": "Despicable Me 4",
+        "release_year": 2024,
+        "popularity": 32.9612,
+        "vote_average": 6.986,
+        "vote_count": 3238,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/wWba3TaojhK7NdycRhoQpsG0FaH.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/wWba3TaojhK7NdycRhoQpsG0FaH.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/519182",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 7,
+          "positive_count": 1,
+          "strengths": [
+            "몰입·재미",
+            "세계관·스토리",
+            "연기·케미"
+          ],
+          "summary": "'Despicable Me 4'가 먹히는 이유: 몰입·재미, 세계관·스토리, 연기·케미에서 호평. (긍정 리뷰 1/7편 기준)"
+        }
+      },
+      {
+        "rank": 10,
+        "tmdb_id": 77338,
+        "title": "The Intouchables",
+        "release_year": 2011,
+        "popularity": 30.9593,
+        "vote_average": 8.272,
+        "vote_count": 18510,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/1QU7HKgsQbGpzsJbJK4pAVQV9F5.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/1QU7HKgsQbGpzsJbJK4pAVQV9F5.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/77338",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 1,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'The Intouchables'는 리뷰 표본이 적어(리뷰 1편) 정량 신호로 대체: 평점 8.272/10·투표 18510표."
+        }
+      }
+    ],
+    "crime": [
+      {
+        "rank": 1,
+        "tmdb_id": 1202033,
+        "title": "Enola Holmes 3",
+        "release_year": 2026,
+        "popularity": 167.0907,
+        "vote_average": 7.063,
+        "vote_count": 151,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/7kRYHH9H9PjBFwz1FprbHB2AAjI.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/7kRYHH9H9PjBFwz1FprbHB2AAjI.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1202033",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 1,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Enola Holmes 3'는 리뷰 표본이 적어(리뷰 1편) 정량 신호로 대체: 평점 7.063/10·투표 151표."
+        }
+      },
+      {
+        "rank": 2,
+        "tmdb_id": 1582770,
+        "title": "Dhurandhar: The Revenge",
+        "release_year": 2026,
+        "popularity": 31.298,
+        "vote_average": 7.333,
+        "vote_count": 126,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/ptTwQES14pr5c3aZvJg56YlYgb1.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/ptTwQES14pr5c3aZvJg56YlYgb1.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1582770",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 2,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Dhurandhar: The Revenge'는 리뷰 표본이 적어(리뷰 2편) 정량 신호로 대체: 평점 7.333/10·투표 126표."
+        }
+      },
+      {
+        "rank": 3,
+        "tmdb_id": 680,
+        "title": "Pulp Fiction",
+        "release_year": 1994,
+        "popularity": 41.3331,
+        "vote_average": 8.482,
+        "vote_count": 30363,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/680",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 6,
+          "positive_count": 4,
+          "strengths": [
+            "연출·각본",
+            "세계관·스토리",
+            "음악·OST"
+          ],
+          "summary": "'Pulp Fiction'가 먹히는 이유: 연출·각본, 세계관·스토리, 음악·OST에서 호평. (긍정 리뷰 4/6편 기준)"
+        }
+      },
+      {
+        "rank": 4,
+        "tmdb_id": 1662317,
+        "title": "The Crash",
+        "release_year": 2026,
+        "popularity": 28.9163,
+        "vote_average": 6.904,
+        "vote_count": 135,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/veskdPx4YUTmkrFrTs6zRJ8VV4E.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/veskdPx4YUTmkrFrTs6zRJ8VV4E.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1662317",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 1,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'The Crash'는 리뷰 표본이 적어(리뷰 1편) 정량 신호로 대체: 평점 6.904/10·투표 135표."
+        }
+      },
+      {
+        "rank": 5,
+        "tmdb_id": 497582,
+        "title": "Enola Holmes",
+        "release_year": 2020,
+        "popularity": 33.9781,
+        "vote_average": 7.224,
+        "vote_count": 6618,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/riYInlsq2kf1AWoGm80JQW5dLKp.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/riYInlsq2kf1AWoGm80JQW5dLKp.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/497582",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 4,
+          "positive_count": 3,
+          "strengths": [
+            "세계관·스토리",
+            "연기·케미",
+            "몰입·재미"
+          ],
+          "summary": "'Enola Holmes'가 먹히는 이유: 세계관·스토리, 연기·케미, 몰입·재미에서 호평. (긍정 리뷰 3/4편 기준)"
+        }
+      },
+      {
+        "rank": 6,
+        "tmdb_id": 979,
+        "title": "Irreversible",
+        "release_year": 2002,
+        "popularity": 27.1759,
+        "vote_average": 7.2,
+        "vote_count": 3329,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/rxeDxo8FvZpLu6iplNpxdtAVnfu.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/rxeDxo8FvZpLu6iplNpxdtAVnfu.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/979",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 3,
+          "positive_count": 2,
+          "strengths": [
+            "세계관·스토리",
+            "음악·OST",
+            "연기·케미"
+          ],
+          "summary": "'Irreversible'가 먹히는 이유: 세계관·스토리, 음악·OST, 연기·케미에서 호평. (긍정 리뷰 2/3편 기준)"
+        }
+      },
+      {
+        "rank": 7,
+        "tmdb_id": 1306368,
+        "title": "The Rip",
+        "release_year": 2026,
+        "popularity": 26.1749,
+        "vote_average": 7.086,
+        "vote_count": 1708,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/4wsYWH73Hb1B6noGIFaRQSAkuXj.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/4wsYWH73Hb1B6noGIFaRQSAkuXj.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1306368",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 6,
+          "positive_count": 2,
+          "strengths": [
+            "연출·각본",
+            "연기·케미",
+            "몰입·재미"
+          ],
+          "summary": "'The Rip'가 먹히는 이유: 연출·각본, 연기·케미, 몰입·재미에서 호평. (긍정 리뷰 2/6편 기준)"
+        }
+      },
+      {
+        "rank": 8,
+        "tmdb_id": 111,
+        "title": "Scarface",
+        "release_year": 1983,
+        "popularity": 25.5175,
+        "vote_average": 8.2,
+        "vote_count": 13133,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/iQ5ztdjvteGeboxtmRdXEChJOHh.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/iQ5ztdjvteGeboxtmRdXEChJOHh.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/111",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 4,
+          "positive_count": 2,
+          "strengths": [
+            "연출·각본",
+            "음악·OST",
+            "세계관·스토리"
+          ],
+          "summary": "'Scarface'가 먹히는 이유: 연출·각본, 음악·OST, 세계관·스토리에서 호평. (긍정 리뷰 2/4편 기준)"
+        }
+      },
+      {
+        "rank": 9,
+        "tmdb_id": 1699155,
+        "title": "Maternal Instinct",
+        "release_year": 2026,
+        "popularity": 24.3615,
+        "vote_average": 7.132,
+        "vote_count": 91,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/4KdmT71AGzDMp5hJbAu9vysKQKT.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/4KdmT71AGzDMp5hJbAu9vysKQKT.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1699155",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 0,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Maternal Instinct'는 리뷰 표본이 적어(리뷰 0편) 정량 신호로 대체: 평점 7.132/10·투표 91표."
+        }
+      },
+      {
+        "rank": 10,
+        "tmdb_id": 949,
+        "title": "Heat",
+        "release_year": 1995,
+        "popularity": 24.7929,
+        "vote_average": 7.9,
+        "vote_count": 8420,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/e09dLw1Ljtccd2P4NsuUvVtS5du.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/e09dLw1Ljtccd2P4NsuUvVtS5du.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/949",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 9,
+          "positive_count": 6,
+          "strengths": [
+            "세계관·스토리",
+            "연출·각본",
+            "연기·케미"
+          ],
+          "summary": "'Heat'가 먹히는 이유: 세계관·스토리, 연출·각본, 연기·케미에서 호평. (긍정 리뷰 6/9편 기준)"
+        }
+      }
+    ],
+    "documentary": [
+      {
+        "rank": 1,
+        "tmdb_id": 1662317,
+        "title": "The Crash",
+        "release_year": 2026,
+        "popularity": 28.9163,
+        "vote_average": 6.904,
+        "vote_count": 135,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/veskdPx4YUTmkrFrTs6zRJ8VV4E.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/veskdPx4YUTmkrFrTs6zRJ8VV4E.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1662317",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 1,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'The Crash'는 리뷰 표본이 적어(리뷰 1편) 정량 신호로 대체: 평점 6.904/10·투표 135표."
+        }
+      },
+      {
+        "rank": 2,
+        "tmdb_id": 1699155,
+        "title": "Maternal Instinct",
+        "release_year": 2026,
+        "popularity": 24.3615,
+        "vote_average": 7.132,
+        "vote_count": 91,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/4KdmT71AGzDMp5hJbAu9vysKQKT.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/4KdmT71AGzDMp5hJbAu9vysKQKT.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1699155",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 0,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Maternal Instinct'는 리뷰 표본이 적어(리뷰 0편) 정량 신호로 대체: 평점 7.132/10·투표 91표."
+        }
+      },
+      {
+        "rank": 3,
+        "tmdb_id": 664280,
+        "title": "David Attenborough: A Life on Our Planet",
+        "release_year": 2020,
+        "popularity": 5.8664,
+        "vote_average": 8.446,
+        "vote_count": 446,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/zSKwyUDKDHiFU5syTTvQRDcGBPS.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/zSKwyUDKDHiFU5syTTvQRDcGBPS.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/664280",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 1,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'David Attenborough: A Life on Our Planet'는 리뷰 표본이 적어(리뷰 1편) 정량 신호로 대체: 평점 8.446/10·투표 446표."
+        }
+      },
+      {
+        "rank": 4,
+        "tmdb_id": 828853,
+        "title": "Jackass 4.5",
+        "release_year": 2022,
+        "popularity": 5.9455,
+        "vote_average": 6.409,
+        "vote_count": 394,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/bl686OSeMQOvs90IQAgt8QipCsB.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/bl686OSeMQOvs90IQAgt8QipCsB.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/828853",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 0,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Jackass 4.5'는 리뷰 표본이 적어(리뷰 0편) 정량 신호로 대체: 평점 6.409/10·투표 394표."
+        }
+      },
+      {
+        "rank": 5,
+        "tmdb_id": 1675177,
+        "title": "Chris & Martina: The Final Set",
+        "release_year": 2026,
+        "popularity": 5.2982,
+        "vote_average": 8.0,
+        "vote_count": 3,
+        "rating_source": "tmdb",
+        "low_vote": true,
+        "poster_path": "/m6XxbOjeDyHChXlJ7CVEolNCq2o.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/m6XxbOjeDyHChXlJ7CVEolNCq2o.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1675177",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 0,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Chris & Martina: The Final Set'는 리뷰 표본이 적어(리뷰 0편) 정량 신호로 대체: 평점 8.0/10·투표 3표."
+        }
+      },
+      {
+        "rank": 6,
+        "tmdb_id": 1599090,
+        "title": "Skyscraper Live",
+        "release_year": 2026,
+        "popularity": 6.1752,
+        "vote_average": 7.485,
+        "vote_count": 34,
+        "rating_source": "tmdb",
+        "low_vote": true,
+        "poster_path": "/hbURquxQUJXFfeqpjzmHekRmyqb.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/hbURquxQUJXFfeqpjzmHekRmyqb.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1599090",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 0,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Skyscraper Live'는 리뷰 표본이 적어(리뷰 0편) 정량 신호로 대체: 평점 7.485/10·투표 34표."
+        }
+      },
+      {
+        "rank": 7,
+        "tmdb_id": 1628116,
+        "title": "BTS: THE RETURN",
+        "release_year": 2026,
+        "popularity": 7.0521,
+        "vote_average": 8.351,
+        "vote_count": 37,
+        "rating_source": "tmdb",
+        "low_vote": true,
+        "poster_path": "/9CNUWleZWN9EGMZjvaSTcxmAAGg.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/9CNUWleZWN9EGMZjvaSTcxmAAGg.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1628116",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 0,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'BTS: THE RETURN'는 리뷰 표본이 적어(리뷰 0편) 정량 신호로 대체: 평점 8.351/10·투표 37표."
+        }
+      },
+      {
+        "rank": 8,
+        "tmdb_id": 12094,
+        "title": "Jackass Number Two",
+        "release_year": 2006,
+        "popularity": 5.1924,
+        "vote_average": 6.6,
+        "vote_count": 1277,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/u73V8dMqUwjtPL6gWesCE7ji9GU.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/u73V8dMqUwjtPL6gWesCE7ji9GU.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/12094",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 0,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Jackass Number Two'는 리뷰 표본이 적어(리뷰 0편) 정량 신호로 대체: 평점 6.6/10·투표 1277표."
+        }
+      },
+      {
+        "rank": 9,
+        "tmdb_id": 1684240,
+        "title": "Jamie Vardy",
+        "release_year": 2026,
+        "popularity": 6.5075,
+        "vote_average": 7.194,
+        "vote_count": 31,
+        "rating_source": "tmdb",
+        "low_vote": true,
+        "poster_path": "/d0pODTh6FOwn87iOeXGb7nKOdNT.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/d0pODTh6FOwn87iOeXGb7nKOdNT.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1684240",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 0,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Jamie Vardy'는 리뷰 표본이 적어(리뷰 0편) 정량 신호로 대체: 평점 7.194/10·투표 31표."
+        }
+      },
+      {
+        "rank": 10,
+        "tmdb_id": 1633264,
+        "title": "Louis Theroux: Inside the Manosphere",
+        "release_year": 2026,
+        "popularity": 5.8063,
+        "vote_average": 6.599,
+        "vote_count": 111,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/ouOvRvsgF37yEx3D6ZLWyuxZFjE.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/ouOvRvsgF37yEx3D6ZLWyuxZFjE.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1633264",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 1,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Louis Theroux: Inside the Manosphere'는 리뷰 표본이 적어(리뷰 1편) 정량 신호로 대체: 평점 6.599/10·투표 111표."
+        }
+      }
+    ],
+    "drama": [
+      {
+        "rank": 1,
+        "tmdb_id": 1515729,
+        "title": "Blast",
+        "release_year": 2026,
+        "popularity": 55.3263,
+        "vote_average": 6.9,
+        "vote_count": 26,
+        "rating_source": "tmdb",
+        "low_vote": true,
+        "poster_path": "/mZZBUaAXSeEeO3RovqJssBQyxfK.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/mZZBUaAXSeEeO3RovqJssBQyxfK.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1515729",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 0,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Blast'는 리뷰 표본이 적어(리뷰 0편) 정량 신호로 대체: 평점 6.9/10·투표 26표."
+        }
+      },
+      {
+        "rank": 2,
+        "tmdb_id": 550,
+        "title": "Fight Club",
+        "release_year": 1999,
+        "popularity": 39.8202,
+        "vote_average": 8.438,
+        "vote_count": 32263,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/jSziioSwPVrOy9Yow3XhWIBDjq1.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/jSziioSwPVrOy9Yow3XhWIBDjq1.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/550",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 11,
+          "positive_count": 9,
+          "strengths": [
+            "세계관·스토리",
+            "연출·각본",
+            "연기·케미"
+          ],
+          "summary": "'Fight Club'가 먹히는 이유: 세계관·스토리, 연출·각본, 연기·케미에서 호평. (긍정 리뷰 9/11편 기준)"
+        }
+      },
+      {
+        "rank": 3,
+        "tmdb_id": 496243,
+        "title": "Parasite",
+        "release_year": 2019,
+        "popularity": 38.0989,
+        "vote_average": 8.492,
+        "vote_count": 20814,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/496243",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 16,
+          "positive_count": 14,
+          "strengths": [
+            "세계관·스토리",
+            "음악·OST",
+            "연출·각본"
+          ],
+          "summary": "'Parasite'가 먹히는 이유: 세계관·스토리, 음악·OST, 연출·각본에서 호평. (긍정 리뷰 14/16편 기준)"
+        }
+      },
+      {
+        "rank": 4,
+        "tmdb_id": 1630423,
+        "title": "My Dearest Assassin",
+        "release_year": 2026,
+        "popularity": 32.0405,
+        "vote_average": 8.602,
+        "vote_count": 259,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/ul4dQcA68mtSx8J56N5gEcaCCtP.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/ul4dQcA68mtSx8J56N5gEcaCCtP.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1630423",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 0,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'My Dearest Assassin'는 리뷰 표본이 적어(리뷰 0편) 정량 신호로 대체: 평점 8.602/10·투표 259표."
+        }
+      },
+      {
+        "rank": 5,
+        "tmdb_id": 979,
+        "title": "Irreversible",
+        "release_year": 2002,
+        "popularity": 27.1759,
+        "vote_average": 7.2,
+        "vote_count": 3329,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/rxeDxo8FvZpLu6iplNpxdtAVnfu.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/rxeDxo8FvZpLu6iplNpxdtAVnfu.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/979",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 3,
+          "positive_count": 2,
+          "strengths": [
+            "세계관·스토리",
+            "음악·OST",
+            "연기·케미"
+          ],
+          "summary": "'Irreversible'가 먹히는 이유: 세계관·스토리, 음악·OST, 연기·케미에서 호평. (긍정 리뷰 2/3편 기준)"
+        }
+      },
+      {
+        "rank": 6,
+        "tmdb_id": 77338,
+        "title": "The Intouchables",
+        "release_year": 2011,
+        "popularity": 30.9593,
+        "vote_average": 8.272,
+        "vote_count": 18510,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/1QU7HKgsQbGpzsJbJK4pAVQV9F5.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/1QU7HKgsQbGpzsJbJK4pAVQV9F5.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/77338",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 1,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'The Intouchables'는 리뷰 표본이 적어(리뷰 1편) 정량 신호로 대체: 평점 8.272/10·투표 18510표."
+        }
+      },
+      {
+        "rank": 7,
+        "tmdb_id": 244786,
+        "title": "Whiplash",
+        "release_year": 2014,
+        "popularity": 26.1068,
+        "vote_average": 8.376,
+        "vote_count": 16729,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/7fn624j5lj3xTme2SgiLCeuedmO.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/7fn624j5lj3xTme2SgiLCeuedmO.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/244786",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 10,
+          "positive_count": 7,
+          "strengths": [
+            "세계관·스토리",
+            "연출·각본",
+            "연기·케미"
+          ],
+          "summary": "'Whiplash'가 먹히는 이유: 세계관·스토리, 연출·각본, 연기·케미에서 호평. (긍정 리뷰 7/10편 기준)"
+        }
+      },
+      {
+        "rank": 8,
+        "tmdb_id": 111,
+        "title": "Scarface",
+        "release_year": 1983,
+        "popularity": 25.5175,
+        "vote_average": 8.2,
+        "vote_count": 13133,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/iQ5ztdjvteGeboxtmRdXEChJOHh.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/iQ5ztdjvteGeboxtmRdXEChJOHh.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/111",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 4,
+          "positive_count": 2,
+          "strengths": [
+            "연출·각본",
+            "음악·OST",
+            "세계관·스토리"
+          ],
+          "summary": "'Scarface'가 먹히는 이유: 연출·각본, 음악·OST, 세계관·스토리에서 호평. (긍정 리뷰 2/4편 기준)"
+        }
+      },
+      {
+        "rank": 9,
+        "tmdb_id": 1330021,
+        "title": "Remarkably Bright Creatures",
+        "release_year": 2026,
+        "popularity": 25.1018,
+        "vote_average": 8.6,
+        "vote_count": 692,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1330021",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 1,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Remarkably Bright Creatures'는 리뷰 표본이 적어(리뷰 1편) 정량 신호로 대체: 평점 8.6/10·투표 692표."
+        }
+      },
+      {
+        "rank": 10,
+        "tmdb_id": 949,
+        "title": "Heat",
+        "release_year": 1995,
+        "popularity": 24.7929,
+        "vote_average": 7.9,
+        "vote_count": 8420,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/e09dLw1Ljtccd2P4NsuUvVtS5du.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/e09dLw1Ljtccd2P4NsuUvVtS5du.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/949",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 9,
+          "positive_count": 6,
+          "strengths": [
+            "세계관·스토리",
+            "연출·각본",
+            "연기·케미"
+          ],
+          "summary": "'Heat'가 먹히는 이유: 세계관·스토리, 연출·각본, 연기·케미에서 호평. (긍정 리뷰 6/9편 기준)"
+        }
+      }
+    ],
+    "family": [
+      {
+        "rank": 1,
+        "tmdb_id": 1007757,
+        "title": "Swapped",
+        "release_year": 2026,
+        "popularity": 102.6184,
+        "vote_average": 8.946,
+        "vote_count": 1850,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1007757",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 1,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Swapped'는 리뷰 표본이 적어(리뷰 1편) 정량 신호로 대체: 평점 8.946/10·투표 1850표."
+        }
+      },
+      {
+        "rank": 2,
+        "tmdb_id": 1297842,
+        "title": "GOAT",
+        "release_year": 2026,
+        "popularity": 58.3072,
+        "vote_average": 8.108,
+        "vote_count": 863,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1297842",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 4,
+          "positive_count": 1,
+          "strengths": [
+            "몰입·재미",
+            "연기·케미",
+            "음악·OST"
+          ],
+          "summary": "'GOAT'가 먹히는 이유: 몰입·재미, 연기·케미, 음악·OST에서 호평. (긍정 리뷰 1/4편 기준)"
+        }
+      },
+      {
+        "rank": 3,
+        "tmdb_id": 129,
+        "title": "Spirited Away",
+        "release_year": 2001,
+        "popularity": 41.6633,
+        "vote_average": 8.534,
+        "vote_count": 18482,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/129",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 2,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Spirited Away'는 리뷰 표본이 적어(리뷰 2편) 정량 신호로 대체: 평점 8.534/10·투표 18482표."
+        }
+      },
+      {
+        "rank": 4,
+        "tmdb_id": 1184918,
+        "title": "The Wild Robot",
+        "release_year": 2024,
+        "popularity": 35.2038,
+        "vote_average": 8.314,
+        "vote_count": 6212,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/eG9lz41mJqsI4J6ubMtVqD26q2J.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/eG9lz41mJqsI4J6ubMtVqD26q2J.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1184918",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 7,
+          "positive_count": 6,
+          "strengths": [
+            "세계관·스토리",
+            "몰입·재미",
+            "영상미"
+          ],
+          "summary": "'The Wild Robot'가 먹히는 이유: 세계관·스토리, 몰입·재미, 영상미에서 호평. (긍정 리뷰 6/7편 기준)"
+        }
+      },
+      {
+        "rank": 5,
+        "tmdb_id": 519182,
+        "title": "Despicable Me 4",
+        "release_year": 2024,
+        "popularity": 32.9612,
+        "vote_average": 6.986,
+        "vote_count": 3238,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/wWba3TaojhK7NdycRhoQpsG0FaH.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/wWba3TaojhK7NdycRhoQpsG0FaH.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/519182",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 7,
+          "positive_count": 1,
+          "strengths": [
+            "몰입·재미",
+            "세계관·스토리",
+            "연기·케미"
+          ],
+          "summary": "'Despicable Me 4'가 먹히는 이유: 몰입·재미, 세계관·스토리, 연기·케미에서 호평. (긍정 리뷰 1/7편 기준)"
+        }
+      },
+      {
+        "rank": 6,
+        "tmdb_id": 9502,
+        "title": "Kung Fu Panda",
+        "release_year": 2008,
+        "popularity": 19.1372,
+        "vote_average": 7.327,
+        "vote_count": 12718,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/wWt4JYXTg5Wr3xBW2phBrMKgp3x.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/wWt4JYXTg5Wr3xBW2phBrMKgp3x.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/9502",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 5,
+          "positive_count": 4,
+          "strengths": [
+            "세계관·스토리",
+            "몰입·재미",
+            "음악·OST"
+          ],
+          "summary": "'Kung Fu Panda'가 먹히는 이유: 세계관·스토리, 몰입·재미, 음악·OST에서 호평. (긍정 리뷰 4/5편 기준)"
+        }
+      },
+      {
+        "rank": 7,
+        "tmdb_id": 406997,
+        "title": "Wonder",
+        "release_year": 2017,
+        "popularity": 17.6012,
+        "vote_average": 8.105,
+        "vote_count": 8285,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/sONh3LYGFcVDTy8pm1tbSOB13Li.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/sONh3LYGFcVDTy8pm1tbSOB13Li.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/406997",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 0,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Wonder'는 리뷰 표본이 적어(리뷰 0편) 정량 신호로 대체: 평점 8.105/10·투표 8285표."
+        }
+      },
+      {
+        "rank": 8,
+        "tmdb_id": 953,
+        "title": "Madagascar",
+        "release_year": 2005,
+        "popularity": 19.2822,
+        "vote_average": 6.924,
+        "vote_count": 11785,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/zMpJY5CJKUufG9OTw0In4eAFqPX.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/zMpJY5CJKUufG9OTw0In4eAFqPX.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/953",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 2,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Madagascar'는 리뷰 표본이 적어(리뷰 2편) 정량 신호로 대체: 평점 6.924/10·투표 11785표."
+        }
+      },
+      {
+        "rank": 9,
+        "tmdb_id": 8392,
+        "title": "My Neighbor Totoro",
+        "release_year": 1988,
+        "popularity": 16.7555,
+        "vote_average": 8.063,
+        "vote_count": 8875,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/rtGDOeG9LzoerkDGZF9dnVeLppL.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/rtGDOeG9LzoerkDGZF9dnVeLppL.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/8392",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 5,
+          "positive_count": 3,
+          "strengths": [
+            "세계관·스토리",
+            "영상미",
+            "음악·OST"
+          ],
+          "summary": "'My Neighbor Totoro'가 먹히는 이유: 세계관·스토리, 영상미, 음악·OST에서 호평. (긍정 리뷰 3/5편 기준)"
+        }
+      },
+      {
+        "rank": 10,
+        "tmdb_id": 49444,
+        "title": "Kung Fu Panda 2",
+        "release_year": 2011,
+        "popularity": 14.5462,
+        "vote_average": 7.071,
+        "vote_count": 7952,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/mtqqD00vB4PGRt20gWtGqFhrkd0.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/mtqqD00vB4PGRt20gWtGqFhrkd0.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/49444",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 7,
+          "positive_count": 4,
+          "strengths": [
+            "세계관·스토리",
+            "몰입·재미",
+            "연출·각본"
+          ],
+          "summary": "'Kung Fu Panda 2'가 먹히는 이유: 세계관·스토리, 몰입·재미, 연출·각본에서 호평. (긍정 리뷰 4/7편 기준)"
+        }
+      }
+    ],
+    "fantasy": [
+      {
+        "rank": 1,
+        "tmdb_id": 1007757,
+        "title": "Swapped",
+        "release_year": 2026,
+        "popularity": 102.6184,
+        "vote_average": 8.946,
+        "vote_count": 1850,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1007757",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 1,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Swapped'는 리뷰 표본이 적어(리뷰 1편) 정량 신호로 대체: 평점 8.946/10·투표 1850표."
+        }
+      },
+      {
+        "rank": 2,
+        "tmdb_id": 122,
+        "title": "The Lord of the Rings: The Return of the King",
+        "release_year": 2003,
+        "popularity": 46.0062,
+        "vote_average": 8.5,
+        "vote_count": 26765,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/122",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 8,
+          "positive_count": 6,
+          "strengths": [
+            "세계관·스토리",
+            "영상미",
+            "몰입·재미"
+          ],
+          "summary": "'The Lord of the Rings: The Return of the King'가 먹히는 이유: 세계관·스토리, 영상미, 몰입·재미에서 호평. (긍정 리뷰 6/8편 기준)"
+        }
+      },
+      {
+        "rank": 3,
+        "tmdb_id": 120,
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "release_year": 2001,
+        "popularity": 44.3385,
+        "vote_average": 8.437,
+        "vote_count": 27765,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/120",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 11,
+          "positive_count": 11,
+          "strengths": [
+            "세계관·스토리",
+            "연기·케미",
+            "음악·OST"
+          ],
+          "summary": "'The Lord of the Rings: The Fellowship of the Ring'가 먹히는 이유: 세계관·스토리, 연기·케미, 음악·OST에서 호평. (긍정 리뷰 11/11편 기준)"
+        }
+      },
+      {
+        "rank": 4,
+        "tmdb_id": 803796,
+        "title": "KPop Demon Hunters",
+        "release_year": 2025,
+        "popularity": 44.7308,
+        "vote_average": 8.02,
+        "vote_count": 2944,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/zT7Lhw3BhJbMkRqm9Zlx2YGMsY0.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/zT7Lhw3BhJbMkRqm9Zlx2YGMsY0.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/803796",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 6,
+          "positive_count": 5,
+          "strengths": [
+            "세계관·스토리",
+            "음악·OST",
+            "연출·각본"
+          ],
+          "summary": "'KPop Demon Hunters'가 먹히는 이유: 세계관·스토리, 음악·OST, 연출·각본에서 호평. (긍정 리뷰 5/6편 기준)"
+        }
+      },
+      {
+        "rank": 5,
+        "tmdb_id": 129,
+        "title": "Spirited Away",
+        "release_year": 2001,
+        "popularity": 41.6633,
+        "vote_average": 8.534,
+        "vote_count": 18482,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/129",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 2,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Spirited Away'는 리뷰 표본이 적어(리뷰 2편) 정량 신호로 대체: 평점 8.534/10·투표 18482표."
+        }
+      },
+      {
+        "rank": 6,
+        "tmdb_id": 121,
+        "title": "The Lord of the Rings: The Two Towers",
+        "release_year": 2002,
+        "popularity": 32.8187,
+        "vote_average": 8.421,
+        "vote_count": 24059,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/121",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 7,
+          "positive_count": 6,
+          "strengths": [
+            "세계관·스토리",
+            "몰입·재미",
+            "음악·OST"
+          ],
+          "summary": "'The Lord of the Rings: The Two Towers'가 먹히는 이유: 세계관·스토리, 몰입·재미, 음악·OST에서 호평. (긍정 리뷰 6/7편 기준)"
+        }
+      },
+      {
+        "rank": 7,
+        "tmdb_id": 4935,
+        "title": "Howl's Moving Castle",
+        "release_year": 2004,
+        "popularity": 28.3682,
+        "vote_average": 8.388,
+        "vote_count": 11172,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/13kOl2v0nD2OLbVSHnHk8GUFEhO.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/13kOl2v0nD2OLbVSHnHk8GUFEhO.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/4935",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 2,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Howl's Moving Castle'는 리뷰 표본이 적어(리뷰 2편) 정량 신호로 대체: 평점 8.388/10·투표 11172표."
+        }
+      },
+      {
+        "rank": 8,
+        "tmdb_id": 1417,
+        "title": "Pan's Labyrinth",
+        "release_year": 2006,
+        "popularity": 19.9693,
+        "vote_average": 7.765,
+        "vote_count": 11523,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/z7xXihu5wHuSMWymq5VAulPVuvg.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/z7xXihu5wHuSMWymq5VAulPVuvg.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1417",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 3,
+          "positive_count": 3,
+          "strengths": [
+            "세계관·스토리",
+            "영상미",
+            "연출·각본"
+          ],
+          "summary": "'Pan's Labyrinth'가 먹히는 이유: 세계관·스토리, 영상미, 연출·각본에서 호평. (긍정 리뷰 3/3편 기준)"
+        }
+      },
+      {
+        "rank": 9,
+        "tmdb_id": 1062722,
+        "title": "Frankenstein",
+        "release_year": 2025,
+        "popularity": 17.99,
+        "vote_average": 7.634,
+        "vote_count": 3550,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/g4JtvGlQO7DByTI6frUobqvSL3R.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/g4JtvGlQO7DByTI6frUobqvSL3R.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1062722",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 12,
+          "positive_count": 9,
+          "strengths": [
+            "세계관·스토리",
+            "영상미",
+            "연기·케미"
+          ],
+          "summary": "'Frankenstein'가 먹히는 이유: 세계관·스토리, 영상미, 연기·케미에서 호평. (긍정 리뷰 9/12편 기준)"
+        }
+      },
+      {
+        "rank": 10,
+        "tmdb_id": 128,
+        "title": "Princess Mononoke",
+        "release_year": 1997,
+        "popularity": 19.922,
+        "vote_average": 8.32,
+        "vote_count": 9066,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/cMYCDADoLKLbB83g4WnJegaZimC.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/cMYCDADoLKLbB83g4WnJegaZimC.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/128",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 6,
+          "positive_count": 5,
+          "strengths": [
+            "세계관·스토리",
+            "영상미",
+            "연기·케미"
+          ],
+          "summary": "'Princess Mononoke'가 먹히는 이유: 세계관·스토리, 영상미, 연기·케미에서 호평. (긍정 리뷰 5/6편 기준)"
+        }
+      }
+    ],
+    "horror": [
+      {
+        "rank": 1,
+        "tmdb_id": 1239134,
+        "title": "Bhooth Bangla",
+        "release_year": 2026,
+        "popularity": 55.7913,
+        "vote_average": 5.435,
+        "vote_count": 46,
+        "rating_source": "tmdb",
+        "low_vote": true,
+        "poster_path": "/ArIS4vwUxdhm3j7tsTHmffdfU8W.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/ArIS4vwUxdhm3j7tsTHmffdfU8W.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1239134",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 0,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Bhooth Bangla'는 리뷰 표본이 적어(리뷰 0편) 정량 신호로 대체: 평점 5.435/10·투표 46표."
+        }
+      },
+      {
+        "rank": 2,
+        "tmdb_id": 1272837,
+        "title": "28 Years Later: The Bone Temple",
+        "release_year": 2026,
+        "popularity": 36.1892,
+        "vote_average": 7.122,
+        "vote_count": 1361,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/kK1BGkG3KAvWB0WMV1DfOx9yTMZ.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/kK1BGkG3KAvWB0WMV1DfOx9yTMZ.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1272837",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 11,
+          "positive_count": 11,
+          "strengths": [
+            "세계관·스토리",
+            "음악·OST",
+            "연기·케미"
+          ],
+          "summary": "'28 Years Later: The Bone Temple'가 먹히는 이유: 세계관·스토리, 음악·OST, 연기·케미에서 호평. (긍정 리뷰 11/11편 기준)"
+        }
+      },
+      {
+        "rank": 3,
+        "tmdb_id": 72190,
+        "title": "World War Z",
+        "release_year": 2013,
+        "popularity": 26.0749,
+        "vote_average": 6.84,
+        "vote_count": 16682,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/aCnVdvExw6UWSeQfr0tUH3jr4qG.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/aCnVdvExw6UWSeQfr0tUH3jr4qG.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/72190",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 4,
+          "positive_count": 3,
+          "strengths": [
+            "세계관·스토리",
+            "영상미",
+            "연기·케미"
+          ],
+          "summary": "'World War Z'가 먹히는 이유: 세계관·스토리, 영상미, 연기·케미에서 호평. (긍정 리뷰 3/4편 기준)"
+        }
+      },
+      {
+        "rank": 4,
+        "tmdb_id": 1290417,
+        "title": "Thrash",
+        "release_year": 2026,
+        "popularity": 22.8596,
+        "vote_average": 6.049,
+        "vote_count": 670,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/adk8weka3O5648g3de4z3y4aE7G.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/adk8weka3O5648g3de4z3y4aE7G.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1290417",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 2,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Thrash'는 리뷰 표본이 적어(리뷰 2편) 정량 신호로 대체: 평점 6.049/10·투표 670표."
+        }
+      },
+      {
+        "rank": 5,
+        "tmdb_id": 1100988,
+        "title": "28 Years Later",
+        "release_year": 2025,
+        "popularity": 22.3774,
+        "vote_average": 6.618,
+        "vote_count": 2638,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/n5FygjEppOvac6yEaowi26nTyw3.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/n5FygjEppOvac6yEaowi26nTyw3.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1100988",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 11,
+          "positive_count": 5,
+          "strengths": [
+            "세계관·스토리",
+            "연기·케미",
+            "영상미"
+          ],
+          "summary": "'28 Years Later'가 먹히는 이유: 세계관·스토리, 연기·케미, 영상미에서 호평. (긍정 리뷰 5/11편 기준)"
+        }
+      },
+      {
+        "rank": 6,
+        "tmdb_id": 1062722,
+        "title": "Frankenstein",
+        "release_year": 2025,
+        "popularity": 17.99,
+        "vote_average": 7.634,
+        "vote_count": 3550,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/g4JtvGlQO7DByTI6frUobqvSL3R.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/g4JtvGlQO7DByTI6frUobqvSL3R.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1062722",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 12,
+          "positive_count": 9,
+          "strengths": [
+            "세계관·스토리",
+            "영상미",
+            "연기·케미"
+          ],
+          "summary": "'Frankenstein'가 먹히는 이유: 세계관·스토리, 영상미, 연기·케미에서 호평. (긍정 리뷰 9/12편 기준)"
+        }
+      },
+      {
+        "rank": 7,
+        "tmdb_id": 345940,
+        "title": "The Meg",
+        "release_year": 2018,
+        "popularity": 18.2451,
+        "vote_average": 6.249,
+        "vote_count": 8231,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/eyWICPcxOuTcDDDbTMOZawoOn8d.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/eyWICPcxOuTcDDDbTMOZawoOn8d.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/345940",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 5,
+          "positive_count": 0,
+          "strengths": [
+            "연출·각본",
+            "몰입·재미",
+            "영상미"
+          ],
+          "summary": "'The Meg'가 먹히는 이유: 연출·각본, 몰입·재미, 영상미에서 호평. (긍정 리뷰 0/5편 기준)"
+        }
+      },
+      {
+        "rank": 8,
+        "tmdb_id": 493922,
+        "title": "Hereditary",
+        "release_year": 2018,
+        "popularity": 17.9709,
+        "vote_average": 7.294,
+        "vote_count": 8658,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/4GFPuL14eXi66V96xBWY73Y9PfR.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/4GFPuL14eXi66V96xBWY73Y9PfR.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/493922",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 7,
+          "positive_count": 6,
+          "strengths": [
+            "세계관·스토리",
+            "음악·OST",
+            "연기·케미"
+          ],
+          "summary": "'Hereditary'가 먹히는 이유: 세계관·스토리, 음악·OST, 연기·케미에서 호평. (긍정 리뷰 6/7편 기준)"
+        }
+      },
+      {
+        "rank": 9,
+        "tmdb_id": 940721,
+        "title": "Godzilla Minus One",
+        "release_year": 2023,
+        "popularity": 17.8763,
+        "vote_average": 7.6,
+        "vote_count": 3221,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/2E2WTX0TJEflAged6kzErwqX1kt.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/2E2WTX0TJEflAged6kzErwqX1kt.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/940721",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 11,
+          "positive_count": 9,
+          "strengths": [
+            "세계관·스토리",
+            "영상미",
+            "연기·케미"
+          ],
+          "summary": "'Godzilla Minus One'가 먹히는 이유: 세계관·스토리, 영상미, 연기·케미에서 호평. (긍정 리뷰 9/11편 기준)"
+        }
+      },
+      {
+        "rank": 10,
+        "tmdb_id": 530385,
+        "title": "Midsommar",
+        "release_year": 2019,
+        "popularity": 17.2126,
+        "vote_average": 7.147,
+        "vote_count": 8150,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/7LEI8ulZzO5gy9Ww2NVCrKmHeDZ.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/7LEI8ulZzO5gy9Ww2NVCrKmHeDZ.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/530385",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 13,
+          "positive_count": 7,
+          "strengths": [
+            "세계관·스토리",
+            "음악·OST",
+            "영상미"
+          ],
+          "summary": "'Midsommar'가 먹히는 이유: 세계관·스토리, 음악·OST, 영상미에서 호평. (긍정 리뷰 7/13편 기준)"
+        }
+      }
+    ],
+    "mystery": [
+      {
+        "rank": 1,
+        "tmdb_id": 1202033,
+        "title": "Enola Holmes 3",
+        "release_year": 2026,
+        "popularity": 167.0907,
+        "vote_average": 7.063,
+        "vote_count": 151,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/7kRYHH9H9PjBFwz1FprbHB2AAjI.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/7kRYHH9H9PjBFwz1FprbHB2AAjI.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1202033",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 1,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Enola Holmes 3'는 리뷰 표본이 적어(리뷰 1편) 정량 신호로 대체: 평점 7.063/10·투표 151표."
+        }
+      },
+      {
+        "rank": 2,
+        "tmdb_id": 497582,
+        "title": "Enola Holmes",
+        "release_year": 2020,
+        "popularity": 33.9781,
+        "vote_average": 7.224,
+        "vote_count": 6618,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/riYInlsq2kf1AWoGm80JQW5dLKp.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/riYInlsq2kf1AWoGm80JQW5dLKp.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/497582",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 4,
+          "positive_count": 3,
+          "strengths": [
+            "세계관·스토리",
+            "연기·케미",
+            "몰입·재미"
+          ],
+          "summary": "'Enola Holmes'가 먹히는 이유: 세계관·스토리, 연기·케미, 몰입·재미에서 호평. (긍정 리뷰 3/4편 기준)"
+        }
+      },
+      {
+        "rank": 3,
+        "tmdb_id": 1330021,
+        "title": "Remarkably Bright Creatures",
+        "release_year": 2026,
+        "popularity": 25.1018,
+        "vote_average": 8.6,
+        "vote_count": 692,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1330021",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 1,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Remarkably Bright Creatures'는 리뷰 표본이 적어(리뷰 1편) 정량 신호로 대체: 평점 8.6/10·투표 692표."
+        }
+      },
+      {
+        "rank": 4,
+        "tmdb_id": 829280,
+        "title": "Enola Holmes 2",
+        "release_year": 2022,
+        "popularity": 25.2759,
+        "vote_average": 7.406,
+        "vote_count": 3015,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/tegBpjM5ODoYoM1NjaiHVLEA0QM.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/tegBpjM5ODoYoM1NjaiHVLEA0QM.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/829280",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 3,
+          "positive_count": 3,
+          "strengths": [
+            "세계관·스토리",
+            "연기·케미",
+            "영상미"
+          ],
+          "summary": "'Enola Holmes 2'가 먹히는 이유: 세계관·스토리, 연기·케미, 영상미에서 호평. (긍정 리뷰 3/3편 기준)"
+        }
+      },
+      {
+        "rank": 5,
+        "tmdb_id": 249397,
+        "title": "Nymphomaniac: Vol. II",
+        "release_year": 2013,
+        "popularity": 21.9882,
+        "vote_average": 6.714,
+        "vote_count": 3206,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/iLUNqgNKuWn667kXCKztSxYbT3k.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/iLUNqgNKuWn667kXCKztSxYbT3k.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/249397",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 0,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Nymphomaniac: Vol. II'는 리뷰 표본이 적어(리뷰 0편) 정량 신호로 대체: 평점 6.714/10·투표 3206표."
+        }
+      },
+      {
+        "rank": 6,
+        "tmdb_id": 411088,
+        "title": "The Invisible Guest",
+        "release_year": 2017,
+        "popularity": 20.1729,
+        "vote_average": 8.08,
+        "vote_count": 5016,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/fptnZJbLzKUHeNlYrAynbyoL5YJ.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/fptnZJbLzKUHeNlYrAynbyoL5YJ.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/411088",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 4,
+          "positive_count": 3,
+          "strengths": [
+            "세계관·스토리",
+            "연출·각본",
+            "음악·OST"
+          ],
+          "summary": "'The Invisible Guest'가 먹히는 이유: 세계관·스토리, 연출·각본, 음악·OST에서 호평. (긍정 리뷰 3/4편 기준)"
+        }
+      },
+      {
+        "rank": 7,
+        "tmdb_id": 77,
+        "title": "Memento",
+        "release_year": 2000,
+        "popularity": 19.5489,
+        "vote_average": 8.176,
+        "vote_count": 16351,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/fKTPH2WvH8nHTXeBYBVhawtRqtR.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/fKTPH2WvH8nHTXeBYBVhawtRqtR.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/77",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 8,
+          "positive_count": 8,
+          "strengths": [
+            "세계관·스토리",
+            "연출·각본",
+            "영상미"
+          ],
+          "summary": "'Memento'가 먹히는 이유: 세계관·스토리, 연출·각본, 영상미에서 호평. (긍정 리뷰 8/8편 기준)"
+        }
+      },
+      {
+        "rank": 8,
+        "tmdb_id": 198663,
+        "title": "The Maze Runner",
+        "release_year": 2014,
+        "popularity": 23.3422,
+        "vote_average": 7.19,
+        "vote_count": 18185,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/ode14q7WtDugFDp78fo9lCsmay9.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/ode14q7WtDugFDp78fo9lCsmay9.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/198663",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 8,
+          "positive_count": 3,
+          "strengths": [
+            "세계관·스토리",
+            "몰입·재미",
+            "연기·케미"
+          ],
+          "summary": "'The Maze Runner'가 먹히는 이유: 세계관·스토리, 몰입·재미, 연기·케미에서 호평. (긍정 리뷰 3/8편 기준)"
+        }
+      },
+      {
+        "rank": 9,
+        "tmdb_id": 1560681,
+        "title": "Colors of Evil: Black",
+        "release_year": 2026,
+        "popularity": 18.7762,
+        "vote_average": 6.9,
+        "vote_count": 103,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/reeKdj7BSznr7wSGzAtIMrPFgKo.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/reeKdj7BSznr7wSGzAtIMrPFgKo.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1560681",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 1,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Colors of Evil: Black'는 리뷰 표본이 적어(리뷰 1편) 정량 신호로 대체: 평점 6.9/10·투표 103표."
+        }
+      },
+      {
+        "rank": 10,
+        "tmdb_id": 493922,
+        "title": "Hereditary",
+        "release_year": 2018,
+        "popularity": 17.9709,
+        "vote_average": 7.294,
+        "vote_count": 8658,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/4GFPuL14eXi66V96xBWY73Y9PfR.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/4GFPuL14eXi66V96xBWY73Y9PfR.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/493922",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 7,
+          "positive_count": 6,
+          "strengths": [
+            "세계관·스토리",
+            "음악·OST",
+            "연기·케미"
+          ],
+          "summary": "'Hereditary'가 먹히는 이유: 세계관·스토리, 음악·OST, 연기·케미에서 호평. (긍정 리뷰 6/7편 기준)"
+        }
+      }
+    ],
+    "romance": [
+      {
+        "rank": 1,
+        "tmdb_id": 614945,
+        "title": "Voicemails for Isabelle",
+        "release_year": 2026,
+        "popularity": 109.1133,
+        "vote_average": 8.348,
+        "vote_count": 407,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/canZTWSxACSnAluir3dCtMxKpA1.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/canZTWSxACSnAluir3dCtMxKpA1.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/614945",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 0,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Voicemails for Isabelle'는 리뷰 표본이 적어(리뷰 0편) 정량 신호로 대체: 평점 8.348/10·투표 407표."
+        }
+      },
+      {
+        "rank": 2,
+        "tmdb_id": 1358005,
+        "title": "Office Romance",
+        "release_year": 2026,
+        "popularity": 29.7903,
+        "vote_average": 6.451,
+        "vote_count": 278,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/1HRUTqEVDmJC4L6tp6zd85MI6uH.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/1HRUTqEVDmJC4L6tp6zd85MI6uH.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1358005",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 1,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Office Romance'는 리뷰 표본이 적어(리뷰 1편) 정량 신호로 대체: 평점 6.451/10·투표 278표."
+        }
+      },
+      {
+        "rank": 3,
+        "tmdb_id": 1630423,
+        "title": "My Dearest Assassin",
+        "release_year": 2026,
+        "popularity": 32.0405,
+        "vote_average": 8.602,
+        "vote_count": 259,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/ul4dQcA68mtSx8J56N5gEcaCCtP.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/ul4dQcA68mtSx8J56N5gEcaCCtP.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1630423",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 0,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'My Dearest Assassin'는 리뷰 표본이 적어(리뷰 0편) 정량 신호로 대체: 평점 8.602/10·투표 259표."
+        }
+      },
+      {
+        "rank": 4,
+        "tmdb_id": 269955,
+        "title": "Obsessed",
+        "release_year": 2014,
+        "popularity": 23.4693,
+        "vote_average": 6.7,
+        "vote_count": 82,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/fetCtoAvZShCk1nqAWZFuKZschR.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/fetCtoAvZShCk1nqAWZFuKZschR.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/269955",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 0,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Obsessed'는 리뷰 표본이 적어(리뷰 0편) 정량 신호로 대체: 평점 6.7/10·투표 82표."
+        }
+      },
+      {
+        "rank": 5,
+        "tmdb_id": 829557,
+        "title": "365 Days: This Day",
+        "release_year": 2022,
+        "popularity": 20.3363,
+        "vote_average": 5.9,
+        "vote_count": 1853,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/7qU0SOVcQ8BTJLodcAlulUAG16C.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/7qU0SOVcQ8BTJLodcAlulUAG16C.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/829557",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 4,
+          "positive_count": 0,
+          "strengths": [
+            "음악·OST",
+            "세계관·스토리",
+            "영상미"
+          ],
+          "summary": "'365 Days: This Day'가 먹히는 이유: 음악·OST, 세계관·스토리, 영상미에서 호평. (긍정 리뷰 0/4편 기준)"
+        }
+      },
+      {
+        "rank": 6,
+        "tmdb_id": 290098,
+        "title": "The Handmaiden",
+        "release_year": 2016,
+        "popularity": 18.6657,
+        "vote_average": 8.184,
+        "vote_count": 4363,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/dLlH4aNHdnmf62umnInL8xPlPzw.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/dLlH4aNHdnmf62umnInL8xPlPzw.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/290098",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 3,
+          "positive_count": 3,
+          "strengths": [
+            "세계관·스토리",
+            "연기·케미",
+            "몰입·재미"
+          ],
+          "summary": "'The Handmaiden'가 먹히는 이유: 세계관·스토리, 연기·케미, 몰입·재미에서 호평. (긍정 리뷰 3/3편 기준)"
+        }
+      },
+      {
+        "rank": 7,
+        "tmdb_id": 402431,
+        "title": "Wicked",
+        "release_year": 2024,
+        "popularity": 17.0927,
+        "vote_average": 6.905,
+        "vote_count": 3083,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/xDGbZ0JJ3mYaGKy4Nzd9Kph6M9L.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/xDGbZ0JJ3mYaGKy4Nzd9Kph6M9L.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/402431",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 10,
+          "positive_count": 8,
+          "strengths": [
+            "영상미",
+            "음악·OST",
+            "세계관·스토리"
+          ],
+          "summary": "'Wicked'가 먹히는 이유: 영상미, 음악·OST, 세계관·스토리에서 호평. (긍정 리뷰 8/10편 기준)"
+        }
+      },
+      {
+        "rank": 8,
+        "tmdb_id": 19404,
+        "title": "Dilwale Dulhania Le Jayenge",
+        "release_year": 1995,
+        "popularity": 15.0214,
+        "vote_average": 8.51,
+        "vote_count": 4600,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/tFbfCkS7q6g96wVoAu8kyr93iPm.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/tFbfCkS7q6g96wVoAu8kyr93iPm.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/19404",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 1,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Dilwale Dulhania Le Jayenge'는 리뷰 표본이 적어(리뷰 1편) 정량 신호로 대체: 평점 8.51/10·투표 4600표."
+        }
+      },
+      {
+        "rank": 9,
+        "tmdb_id": 829560,
+        "title": "The Next 365 Days",
+        "release_year": 2022,
+        "popularity": 14.3701,
+        "vote_average": 6.372,
+        "vote_count": 1325,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/8AWm7iMcsCI3DdGz4YEJtiMDp8Z.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/8AWm7iMcsCI3DdGz4YEJtiMDp8Z.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/829560",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 2,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'The Next 365 Days'는 리뷰 표본이 적어(리뷰 2편) 정량 신호로 대체: 평점 6.372/10·투표 1325표."
+        }
+      },
+      {
+        "rank": 10,
+        "tmdb_id": 537915,
+        "title": "After",
+        "release_year": 2019,
+        "popularity": 13.8997,
+        "vote_average": 7.106,
+        "vote_count": 8534,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/u3B2YKUjWABcxXZ6Nm9h10hLUbh.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/u3B2YKUjWABcxXZ6Nm9h10hLUbh.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/537915",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 3,
+          "positive_count": 1,
+          "strengths": [
+            "세계관·스토리",
+            "연기·케미"
+          ],
+          "summary": "'After'가 먹히는 이유: 세계관·스토리, 연기·케미에서 호평. (긍정 리뷰 1/3편 기준)"
+        }
+      }
+    ],
+    "science_fiction": [
+      {
+        "rank": 1,
+        "tmdb_id": 1265609,
+        "title": "War Machine",
+        "release_year": 2026,
+        "popularity": 39.248,
+        "vote_average": 7.413,
+        "vote_count": 2012,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/rFhKkXhk7ClU03jQ5rHIApJDwev.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/rFhKkXhk7ClU03jQ5rHIApJDwev.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1265609",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 8,
+          "positive_count": 1,
+          "strengths": [
+            "세계관·스토리",
+            "연출·각본",
+            "연기·케미"
+          ],
+          "summary": "'War Machine'가 먹히는 이유: 세계관·스토리, 연출·각본, 연기·케미에서 호평. (긍정 리뷰 1/8편 기준)"
+        }
+      },
+      {
+        "rank": 2,
+        "tmdb_id": 1272837,
+        "title": "28 Years Later: The Bone Temple",
+        "release_year": 2026,
+        "popularity": 36.1892,
+        "vote_average": 7.122,
+        "vote_count": 1361,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/kK1BGkG3KAvWB0WMV1DfOx9yTMZ.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/kK1BGkG3KAvWB0WMV1DfOx9yTMZ.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1272837",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 11,
+          "positive_count": 11,
+          "strengths": [
+            "세계관·스토리",
+            "음악·OST",
+            "연기·케미"
+          ],
+          "summary": "'28 Years Later: The Bone Temple'가 먹히는 이유: 세계관·스토리, 음악·OST, 연기·케미에서 호평. (긍정 리뷰 11/11편 기준)"
+        }
+      },
+      {
+        "rank": 3,
+        "tmdb_id": 1184918,
+        "title": "The Wild Robot",
+        "release_year": 2024,
+        "popularity": 35.2038,
+        "vote_average": 8.314,
+        "vote_count": 6212,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/eG9lz41mJqsI4J6ubMtVqD26q2J.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/eG9lz41mJqsI4J6ubMtVqD26q2J.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1184918",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 7,
+          "positive_count": 6,
+          "strengths": [
+            "세계관·스토리",
+            "몰입·재미",
+            "영상미"
+          ],
+          "summary": "'The Wild Robot'가 먹히는 이유: 세계관·스토리, 몰입·재미, 영상미에서 호평. (긍정 리뷰 6/7편 기준)"
+        }
+      },
+      {
+        "rank": 4,
+        "tmdb_id": 519182,
+        "title": "Despicable Me 4",
+        "release_year": 2024,
+        "popularity": 32.9612,
+        "vote_average": 6.986,
+        "vote_count": 3238,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/wWba3TaojhK7NdycRhoQpsG0FaH.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/wWba3TaojhK7NdycRhoQpsG0FaH.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/519182",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 7,
+          "positive_count": 1,
+          "strengths": [
+            "몰입·재미",
+            "세계관·스토리",
+            "연기·케미"
+          ],
+          "summary": "'Despicable Me 4'가 먹히는 이유: 몰입·재미, 세계관·스토리, 연기·케미에서 호평. (긍정 리뷰 1/7편 기준)"
+        }
+      },
+      {
+        "rank": 5,
+        "tmdb_id": 324857,
+        "title": "Spider-Man: Into the Spider-Verse",
+        "release_year": 2018,
+        "popularity": 29.5451,
+        "vote_average": 8.4,
+        "vote_count": 17356,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/324857",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 53,
+          "positive_count": 2,
+          "strengths": [
+            "세계관·스토리",
+            "몰입·재미",
+            "영상미"
+          ],
+          "summary": "'Spider-Man: Into the Spider-Verse'가 먹히는 이유: 세계관·스토리, 몰입·재미, 영상미에서 호평. (긍정 리뷰 2/53편 기준)"
+        }
+      },
+      {
+        "rank": 6,
+        "tmdb_id": 72190,
+        "title": "World War Z",
+        "release_year": 2013,
+        "popularity": 26.0749,
+        "vote_average": 6.84,
+        "vote_count": 16682,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/aCnVdvExw6UWSeQfr0tUH3jr4qG.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/aCnVdvExw6UWSeQfr0tUH3jr4qG.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/72190",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 4,
+          "positive_count": 3,
+          "strengths": [
+            "세계관·스토리",
+            "영상미",
+            "연기·케미"
+          ],
+          "summary": "'World War Z'가 먹히는 이유: 세계관·스토리, 영상미, 연기·케미에서 호평. (긍정 리뷰 3/4편 기준)"
+        }
+      },
+      {
+        "rank": 7,
+        "tmdb_id": 315635,
+        "title": "Spider-Man: Homecoming",
+        "release_year": 2017,
+        "popularity": 26.1802,
+        "vote_average": 7.331,
+        "vote_count": 23272,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/c24sv2weTHPsmDa7jEMN0m2P3RT.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/c24sv2weTHPsmDa7jEMN0m2P3RT.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/315635",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 11,
+          "positive_count": 8,
+          "strengths": [
+            "세계관·스토리",
+            "영상미",
+            "몰입·재미"
+          ],
+          "summary": "'Spider-Man: Homecoming'가 먹히는 이유: 세계관·스토리, 영상미, 몰입·재미에서 호평. (긍정 리뷰 8/11편 기준)"
+        }
+      },
+      {
+        "rank": 8,
+        "tmdb_id": 545611,
+        "title": "Everything Everywhere All at Once",
+        "release_year": 2022,
+        "popularity": 20.8544,
+        "vote_average": 7.718,
+        "vote_count": 8063,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/u68AjlvlutfEIcpmbYpKcdi09ut.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/u68AjlvlutfEIcpmbYpKcdi09ut.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/545611",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 19,
+          "positive_count": 12,
+          "strengths": [
+            "세계관·스토리",
+            "연기·케미",
+            "연출·각본"
+          ],
+          "summary": "'Everything Everywhere All at Once'가 먹히는 이유: 세계관·스토리, 연기·케미, 연출·각본에서 호평. (긍정 리뷰 12/19편 기준)"
+        }
+      },
+      {
+        "rank": 9,
+        "tmdb_id": 429617,
+        "title": "Spider-Man: Far From Home",
+        "release_year": 2019,
+        "popularity": 21.6938,
+        "vote_average": 7.396,
+        "vote_count": 17050,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/4q2NNj4S5dG2RLF9CpXsej7yXl.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/4q2NNj4S5dG2RLF9CpXsej7yXl.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/429617",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 16,
+          "positive_count": 11,
+          "strengths": [
+            "세계관·스토리",
+            "몰입·재미",
+            "연기·케미"
+          ],
+          "summary": "'Spider-Man: Far From Home'가 먹히는 이유: 세계관·스토리, 몰입·재미, 연기·케미에서 호평. (긍정 리뷰 11/16편 기준)"
+        }
+      },
+      {
+        "rank": 10,
+        "tmdb_id": 1100988,
+        "title": "28 Years Later",
+        "release_year": 2025,
+        "popularity": 22.3774,
+        "vote_average": 6.618,
+        "vote_count": 2638,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/n5FygjEppOvac6yEaowi26nTyw3.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/n5FygjEppOvac6yEaowi26nTyw3.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1100988",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 11,
+          "positive_count": 5,
+          "strengths": [
+            "세계관·스토리",
+            "연기·케미",
+            "영상미"
+          ],
+          "summary": "'28 Years Later'가 먹히는 이유: 세계관·스토리, 연기·케미, 영상미에서 호평. (긍정 리뷰 5/11편 기준)"
+        }
+      }
+    ],
+    "thriller": [
+      {
+        "rank": 1,
+        "tmdb_id": 1515729,
+        "title": "Blast",
+        "release_year": 2026,
+        "popularity": 55.3263,
+        "vote_average": 6.9,
+        "vote_count": 26,
+        "rating_source": "tmdb",
+        "low_vote": true,
+        "poster_path": "/mZZBUaAXSeEeO3RovqJssBQyxfK.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/mZZBUaAXSeEeO3RovqJssBQyxfK.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1515729",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 0,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Blast'는 리뷰 표본이 적어(리뷰 0편) 정량 신호로 대체: 평점 6.9/10·투표 26표."
+        }
+      },
+      {
+        "rank": 2,
+        "tmdb_id": 1318447,
+        "title": "Apex",
+        "release_year": 2026,
+        "popularity": 55.0302,
+        "vote_average": 6.822,
+        "vote_count": 1568,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/eTp7gSPkSF3Aw79mNx1NkBP1PZT.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1318447",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 5,
+          "positive_count": 2,
+          "strengths": [
+            "세계관·스토리",
+            "몰입·재미",
+            "연출·각본"
+          ],
+          "summary": "'Apex'가 먹히는 이유: 세계관·스토리, 몰입·재미, 연출·각본에서 호평. (긍정 리뷰 2/5편 기준)"
+        }
+      },
+      {
+        "rank": 3,
+        "tmdb_id": 1582770,
+        "title": "Dhurandhar: The Revenge",
+        "release_year": 2026,
+        "popularity": 31.298,
+        "vote_average": 7.333,
+        "vote_count": 126,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/ptTwQES14pr5c3aZvJg56YlYgb1.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/ptTwQES14pr5c3aZvJg56YlYgb1.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1582770",
+        "insight": {
+          "source": "quantitative",
+          "enriched": false,
+          "review_count": 2,
+          "positive_count": null,
+          "strengths": [],
+          "summary": "'Dhurandhar: The Revenge'는 리뷰 표본이 적어(리뷰 2편) 정량 신호로 대체: 평점 7.333/10·투표 126표."
+        }
+      },
+      {
+        "rank": 4,
+        "tmdb_id": 550,
+        "title": "Fight Club",
+        "release_year": 1999,
+        "popularity": 39.8202,
+        "vote_average": 8.438,
+        "vote_count": 32263,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/jSziioSwPVrOy9Yow3XhWIBDjq1.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/jSziioSwPVrOy9Yow3XhWIBDjq1.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/550",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 11,
+          "positive_count": 9,
+          "strengths": [
+            "세계관·스토리",
+            "연출·각본",
+            "연기·케미"
+          ],
+          "summary": "'Fight Club'가 먹히는 이유: 세계관·스토리, 연출·각본, 연기·케미에서 호평. (긍정 리뷰 9/11편 기준)"
+        }
+      },
+      {
+        "rank": 5,
+        "tmdb_id": 680,
+        "title": "Pulp Fiction",
+        "release_year": 1994,
+        "popularity": 41.3331,
+        "vote_average": 8.482,
+        "vote_count": 30363,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/680",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 6,
+          "positive_count": 4,
+          "strengths": [
+            "연출·각본",
+            "세계관·스토리",
+            "음악·OST"
+          ],
+          "summary": "'Pulp Fiction'가 먹히는 이유: 연출·각본, 세계관·스토리, 음악·OST에서 호평. (긍정 리뷰 4/6편 기준)"
+        }
+      },
+      {
+        "rank": 6,
+        "tmdb_id": 1265609,
+        "title": "War Machine",
+        "release_year": 2026,
+        "popularity": 39.248,
+        "vote_average": 7.413,
+        "vote_count": 2012,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/rFhKkXhk7ClU03jQ5rHIApJDwev.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/rFhKkXhk7ClU03jQ5rHIApJDwev.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1265609",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 8,
+          "positive_count": 1,
+          "strengths": [
+            "세계관·스토리",
+            "연출·각본",
+            "연기·케미"
+          ],
+          "summary": "'War Machine'가 먹히는 이유: 세계관·스토리, 연출·각본, 연기·케미에서 호평. (긍정 리뷰 1/8편 기준)"
+        }
+      },
+      {
+        "rank": 7,
+        "tmdb_id": 1272837,
+        "title": "28 Years Later: The Bone Temple",
+        "release_year": 2026,
+        "popularity": 36.1892,
+        "vote_average": 7.122,
+        "vote_count": 1361,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/kK1BGkG3KAvWB0WMV1DfOx9yTMZ.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/kK1BGkG3KAvWB0WMV1DfOx9yTMZ.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/1272837",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 11,
+          "positive_count": 11,
+          "strengths": [
+            "세계관·스토리",
+            "음악·OST",
+            "연기·케미"
+          ],
+          "summary": "'28 Years Later: The Bone Temple'가 먹히는 이유: 세계관·스토리, 음악·OST, 연기·케미에서 호평. (긍정 리뷰 11/11편 기준)"
+        }
+      },
+      {
+        "rank": 8,
+        "tmdb_id": 496243,
+        "title": "Parasite",
+        "release_year": 2019,
+        "popularity": 38.0989,
+        "vote_average": 8.492,
+        "vote_count": 20814,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/496243",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 16,
+          "positive_count": 14,
+          "strengths": [
+            "세계관·스토리",
+            "음악·OST",
+            "연출·각본"
+          ],
+          "summary": "'Parasite'가 먹히는 이유: 세계관·스토리, 음악·OST, 연출·각본에서 호평. (긍정 리뷰 14/16편 기준)"
+        }
+      },
+      {
+        "rank": 9,
+        "tmdb_id": 979,
+        "title": "Irreversible",
+        "release_year": 2002,
+        "popularity": 27.1759,
+        "vote_average": 7.2,
+        "vote_count": 3329,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/rxeDxo8FvZpLu6iplNpxdtAVnfu.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/rxeDxo8FvZpLu6iplNpxdtAVnfu.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/979",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 3,
+          "positive_count": 2,
+          "strengths": [
+            "세계관·스토리",
+            "음악·OST",
+            "연기·케미"
+          ],
+          "summary": "'Irreversible'가 먹히는 이유: 세계관·스토리, 음악·OST, 연기·케미에서 호평. (긍정 리뷰 2/3편 기준)"
+        }
+      },
+      {
+        "rank": 10,
+        "tmdb_id": 244786,
+        "title": "Whiplash",
+        "release_year": 2014,
+        "popularity": 26.1068,
+        "vote_average": 8.376,
+        "vote_count": 16729,
+        "rating_source": "tmdb",
+        "low_vote": false,
+        "poster_path": "/7fn624j5lj3xTme2SgiLCeuedmO.jpg",
+        "poster_url": "https://image.tmdb.org/t/p/w500/7fn624j5lj3xTme2SgiLCeuedmO.jpg",
+        "tmdb_url": "https://www.themoviedb.org/movie/244786",
+        "insight": {
+          "source": "reviews",
+          "enriched": true,
+          "review_count": 10,
+          "positive_count": 7,
+          "strengths": [
+            "세계관·스토리",
+            "연출·각본",
+            "연기·케미"
+          ],
+          "summary": "'Whiplash'가 먹히는 이유: 세계관·스토리, 연출·각본, 연기·케미에서 호평. (긍정 리뷰 7/10편 기준)"
+        }
+      }
+    ]
+  }
+}

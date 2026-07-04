@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0",
+  "genre_count": 14,
+  "genres": [
+    {
+      "id": "action",
+      "name_en": "Action",
+      "name_ko": "액션",
+      "tmdb_genre_id": 28,
+      "icon": "💥"
+    },
+    {
+      "id": "adventure",
+      "name_en": "Adventure",
+      "name_ko": "어드벤처",
+      "tmdb_genre_id": 12,
+      "icon": "🧭"
+    },
+    {
+      "id": "animation",
+      "name_en": "Animation",
+      "name_ko": "애니메이션",
+      "tmdb_genre_id": 16,
+      "icon": "✏️"
+    },
+    {
+      "id": "comedy",
+      "name_en": "Comedy",
+      "name_ko": "코미디",
+      "tmdb_genre_id": 35,
+      "icon": "😂"
+    },
+    {
+      "id": "crime",
+      "name_en": "Crime",
+      "name_ko": "범죄",
+      "tmdb_genre_id": 80,
+      "icon": "🔫"
+    },
+    {
+      "id": "documentary",
+      "name_en": "Documentary",
+      "name_ko": "다큐멘터리",
+      "tmdb_genre_id": 99,
+      "icon": "🎬"
+    },
+    {
+      "id": "drama",
+      "name_en": "Drama",
+      "name_ko": "드라마",
+      "tmdb_genre_id": 18,
+      "icon": "🎭"
+    },
+    {
+      "id": "family",
+      "name_en": "Family",
+      "name_ko": "가족",
+      "tmdb_genre_id": 10751,
+      "icon": "👨‍👩‍👧"
+    },
+    {
+      "id": "fantasy",
+      "name_en": "Fantasy",
+      "name_ko": "판타지",
+      "tmdb_genre_id": 14,
+      "icon": "🐉"
+    },
+    {
+      "id": "horror",
+      "name_en": "Horror",
+      "name_ko": "공포",
+      "tmdb_genre_id": 27,
+      "icon": "👻"
+    },
+    {
+      "id": "mystery",
+      "name_en": "Mystery",
+      "name_ko": "미스터리",
+      "tmdb_genre_id": 9648,
+      "icon": "🔍"
+    },
+    {
+      "id": "romance",
+      "name_en": "Romance",
+      "name_ko": "로맨스",
+      "tmdb_genre_id": 10749,
+      "icon": "❤️"
+    },
+    {
+      "id": "science_fiction",
+      "name_en": "Science Fiction",
+      "name_ko": "SF",
+      "tmdb_genre_id": 878,
+      "icon": "🚀"
+    },
+    {
+      "id": "thriller",
+      "name_en": "Thriller",
+      "name_ko": "스릴러",
+      "tmdb_genre_id": 53,
+      "icon": "🔪"
+    }
+  ]
+}

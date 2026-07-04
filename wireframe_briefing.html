@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>와이어프레임 — 장르 브리핑 화면 (PM 승인용)</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:'Segoe UI','Malgun Gothic',sans-serif;background:#141414;color:#e5e5e5;line-height:1.55;}
+  .wf-banner{background:#b8860b;color:#000;text-align:center;padding:7px 12px;font-size:13px;font-weight:bold;}
+  .wrap{max-width:960px;margin:0 auto;padding:20px 20px 60px;}
+  header.top{padding:22px 0 10px;border-bottom:1px solid #333;margin-bottom:18px;}
+  header.top .sub{color:#999;font-size:.82rem;margin-top:7px;}
+  /* 자체 워드마크 (공식 로고 미사용) */
+  .wordmark{display:flex;align-items:center;gap:10px;}
+  .wm-mark{background:#E50914;color:#fff;font-weight:900;font-size:1.05rem;line-height:1;
+        border-radius:7px;padding:6px 10px;letter-spacing:1.5px;box-shadow:0 2px 8px rgba(229,9,20,.35);}
+  .wm-name{font-size:1.45rem;font-weight:800;color:#fff;letter-spacing:-.5px;}
+  .wm-name em{color:#E50914;font-style:normal;}
+  .wm-beta{font-size:.6rem;color:#888;border:1px solid #444;border-radius:4px;padding:1px 5px;
+        align-self:flex-start;margin-top:2px;}
+
+  /* 주석(와이어프레임 설명) */
+  .anno{border:1px dashed #6c8cff;background:rgba(108,140,255,.08);color:#9db2ff;
+        font-size:.76rem;border-radius:6px;padding:6px 10px;margin:8px 0 14px;}
+  .anno b{color:#c3d0ff;}
+  .anno code{background:#20263a;color:#b9c6ff;padding:1px 5px;border-radius:4px;font-size:.72rem;}
+
+  /* 장르 선택 */
+  .picker-label{font-size:.85rem;color:#bbb;margin-bottom:8px;}
+  .genres{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:6px;}
+  .chip{background:#222;border:1px solid #444;border-radius:20px;padding:7px 15px;
+        font-size:.85rem;color:#ccc;cursor:pointer;user-select:none;}
+  .chip:hover{border-color:#E50914;}
+  .chip.active{background:#E50914;border-color:#E50914;color:#fff;font-weight:bold;}
+  .chip .ico{margin-right:5px;font-size:.9rem;}
+
+  .brief-head{margin:22px 0 6px;}
+  .brief-head h2{font-size:1.35rem;color:#fff;}
+  .brief-head .as-of{color:#888;font-size:.78rem;margin-top:2px;}
+
+  section.sec{margin:26px 0;}
+  .sec-title{display:flex;align-items:baseline;gap:10px;margin-bottom:6px;}
+  .sec-title .badge{background:#E50914;color:#fff;font-size:.72rem;font-weight:bold;
+        border-radius:5px;padding:2px 8px;}
+  .sec-title h3{font-size:1.08rem;color:#fff;}
+  .sec-title .hint{color:#888;font-size:.76rem;}
+
+  /* 포스터 플레이스홀더 (백엔드 이미지 확정 전) */
+  .poster{width:46px;height:66px;background:#2a2a2a;border:1px dashed #4a4a4a;border-radius:5px;flex-shrink:0;
+        display:flex;flex-direction:column;align-items:center;justify-content:center;color:#777;font-size:.58rem;text-align:center;gap:2px;}
+  .poster .pico{font-size:1rem;opacity:.6;}
+
+  /* 섹션① 트렌딩 목록 */
+  .work{display:flex;gap:12px;background:#1c1c1c;border:1px solid #2e2e2e;border-radius:9px;
+        padding:11px 13px;margin-bottom:9px;align-items:center;}
+  .rank{font-size:1.15rem;font-weight:800;color:#E50914;width:26px;text-align:center;flex-shrink:0;}
+  .w-body{flex:1;min-width:0;}
+  .w-title{font-size:.98rem;color:#fff;font-weight:600;}
+  .w-meta{font-size:.8rem;color:#aaa;margin-top:2px;}
+  .lowvote{display:inline-block;background:#3a2a12;color:#f0b352;border:1px solid #6b4d1e;
+        font-size:.68rem;border-radius:4px;padding:1px 6px;margin-left:6px;}
+
+  /* 섹션② 먹히는 이유 */
+  .why{background:#1c1c1c;border:1px solid #2e2e2e;border-radius:9px;padding:13px 15px;margin-bottom:10px;
+        display:flex;gap:12px;align-items:flex-start;}
+  .why-main{flex:1;min-width:0;}
+  .why-top{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:6px;}
+  .why-title{font-size:.96rem;color:#fff;font-weight:600;}
+  .src-badge{font-size:.68rem;border-radius:4px;padding:2px 7px;white-space:nowrap;}
+  .src-reviews{background:#12261a;color:#5fd08a;border:1px solid #245c3a;}
+  .src-quant{background:#2a2130;color:#c79be0;border:1px solid #543a63;}
+  .why-summary{font-size:.9rem;color:#cfcfcf;}
+  .tags{margin-top:9px;display:flex;flex-wrap:wrap;gap:6px;}
+  .tag{background:#2a2a2a;border:1px solid #4a4a4a;border-radius:14px;padding:3px 10px;
+        font-size:.76rem;color:#ddd;}
+
+  /* 섹션③ 기회 */
+  .opp-card{background:linear-gradient(135deg,#2a0a0e,#1a1a1a);border:1px solid #5a1620;
+        border-radius:11px;padding:18px;}
+  .opp-top{display:flex;align-items:center;gap:12px;flex-wrap:wrap;}
+  .tier{background:#E50914;color:#fff;font-weight:bold;font-size:.8rem;border-radius:6px;padding:4px 11px;}
+  .opp-index{margin-left:auto;text-align:right;}
+  .opp-index .n{font-size:1.7rem;font-weight:800;color:#E50914;}
+  .opp-index .l{font-size:.68rem;color:#999;}
+  .gap-line{font-size:.95rem;color:#fff;margin:12px 0 4px;}
+  .gap-line b{color:#ff6b74;}
+  .opp-comment{font-size:.88rem;color:#cfcfcf;}
+  .why-btn{margin-top:14px;background:#333;color:#fff;border:1px solid #555;border-radius:7px;
+        padding:9px 18px;font-size:.85rem;cursor:pointer;}
+  .why-btn:hover{border-color:#E50914;}
+  .evidence{display:none;margin-top:14px;background:#161616;border:1px solid #2e2e2e;border-radius:9px;padding:14px;}
+  .evidence.open{display:block;}
+  .chart-box{position:relative;height:280px;}
+  .evidence .cap{font-size:.78rem;color:#999;margin-top:8px;}
+
+  /* 공통 출처/한계 */
+  .meta-foot{margin-top:34px;border-top:1px solid #333;padding-top:16px;font-size:.76rem;color:#888;}
+  .meta-foot h4{color:#aaa;font-size:.8rem;margin-bottom:6px;}
+  .meta-foot ul{margin:6px 0 0 18px;}
+  .meta-foot li{margin-bottom:3px;}
+  .attrib{color:#777;margin-top:10px;font-style:italic;}
+  .disclaimer{color:#999;margin-top:8px;padding-top:8px;border-top:1px dotted #333;font-size:.78rem;}
+
+  @media (max-width:600px){
+    .wrap{padding:14px 13px 50px;}
+    .wm-name{font-size:1.25rem;}
+    .opp-index{margin-left:0;text-align:left;}
+  }
+</style>
+</head>
+<body>
+<div class="wf-banner">⚠ 와이어프레임(목업) — 레이아웃·데이터 매핑 확인용 · 실제 구현은 PM 승인 후 진행 · 표시 수치는 실제 JSON 예시(action 장르) · 포스터는 백엔드 이미지 확정 전 플레이스홀더</div>
+<div class="wrap">
+
+  <header class="top">
+    <div class="wordmark">
+      <span class="wm-mark">NOW</span>
+      <span class="wm-name">지금, <em>이 장르</em></span>
+      <span class="wm-beta">beta</span>
+    </div>
+    <div class="sub">장르를 고르면 ①지금 뜨는 것 ②먹히는 이유 ③아직 안 한 것(기회)을 한 화면에 · 타깃: 콘텐츠 기획 지망생</div>
+  </header>
+
+  <!-- 장르 선택 -->
+  <div class="picker-label">1) 장르 선택 <span style="color:#666;">— genres.json · 14종 (name_ko 표기)</span></div>
+  <div class="genres">
+    <div class="chip active"><span class="ico">🔥</span>액션</div><div class="chip"><span class="ico">🧭</span>어드벤처</div><div class="chip"><span class="ico">✨</span>애니메이션</div>
+    <div class="chip"><span class="ico">😂</span>코미디</div><div class="chip"><span class="ico">🔪</span>범죄</div><div class="chip"><span class="ico">🎬</span>다큐멘터리</div>
+    <div class="chip"><span class="ico">🎭</span>드라마</div><div class="chip"><span class="ico">👨‍👩‍👧</span>가족</div><div class="chip"><span class="ico">🐉</span>판타지</div>
+    <div class="chip"><span class="ico">👻</span>공포</div><div class="chip"><span class="ico">🕵️</span>미스터리</div><div class="chip"><span class="ico">💕</span>로맨스</div>
+    <div class="chip"><span class="ico">🚀</span>SF</div><div class="chip"><span class="ico">😱</span>스릴러</div>
+  </div>
+  <div class="anno"><b>바인딩:</b> 칩 = genres.json.genres[].name_ko / 아이콘은 프론트 정적 매핑(id→이모지, 데이터 필드 아님) / 클릭 시 해당 id로 세 섹션 재렌더. 최초 진입 시 opportunity.json rank=1 장르 자동 선택 예정(제안, PM 확인).</div>
+
+  <div class="brief-head">
+    <h2>액션 브리핑</h2>
+    <div class="as-of">기준일 2026-07-04 · 리전 KR · 넷플릭스</div>
+  </div>
+
+  <!-- 섹션 ① 지금 뜨는 것 -->
+  <section class="sec">
+    <div class="sec-title"><span class="badge">①</span><h3>지금 뜨는 것</h3><span class="hint">trending_by_genre.json · popularity Top10</span></div>
+    <div class="anno"><b>바인딩:</b> rank·title·release_year·vote_average·vote_count. 포스터 = <code>https://image.tmdb.org/t/p/w500{poster_path}</code> 조합(poster_path=null이면 플레이스홀더 유지). 백엔드 이미지 확정 전까지 목업은 회색 플레이스홀더 표시. <b>low_vote=true</b> 작품에 "평가 수 적음" 라벨 표기.</div>
+
+    <div class="work"><div class="rank">1</div><div class="poster"><span class="pico">🖼️</span>poster_path</div>
+      <div class="w-body"><div class="w-title">Enola Holmes 3</div>
+      <div class="w-meta">2026 · ⭐ 7.1 <span style="color:#777;">(151표)</span></div></div></div>
+
+    <div class="work"><div class="rank">2</div><div class="poster"><span class="pico">🖼️</span>poster_path</div>
+      <div class="w-body"><div class="w-title">Blast</div>
+      <div class="w-meta">2026 · ⭐ 6.9 <span style="color:#777;">(26표)</span><span class="lowvote">평가 수 적음</span></div></div></div>
+
+    <div class="work"><div class="rank">3</div><div class="poster"><span class="pico">🖼️</span>poster_path</div>
+      <div class="w-body"><div class="w-title">Apex</div>
+      <div class="w-meta">2026 · ⭐ 6.8 <span style="color:#777;">(1,568표)</span></div></div></div>
+
+    <div class="work"><div class="rank">4</div><div class="poster"><span class="pico">🖼️</span>poster_path</div>
+      <div class="w-body"><div class="w-title">The Lord of the Rings: The Return of the King</div>
+      <div class="w-meta">2003 · ⭐ 8.5 <span style="color:#777;">(26,765표)</span></div></div></div>
+
+    <div style="text-align:center;color:#666;font-size:.8rem;padding:6px;">… 5~10위 동일 형식 (총 10개) …</div>
+  </section>
+
+  <!-- 섹션 ② 먹히는 이유 -->
+  <section class="sec">
+    <div class="sec-title"><span class="badge">②</span><h3>먹히는 이유</h3><span class="hint">작품별 insight 필드 · summary + strengths</span></div>
+    <div class="anno"><b>바인딩:</b> insight.summary(완성 문장 그대로 렌더) · insight.strengths(강점 태그). <b>insight.source</b>로 배지 구분 — <span style="color:#5fd08a;">리뷰 기반</span> vs <span style="color:#c79be0;">정량 폴백</span>. source=quantitative는 strengths 빈 배열([]) → 태그 미표시. 포스터는 섹션①과 동일 poster_path 사용.</div>
+
+    <!-- reviews 변형 -->
+    <div class="why">
+      <div class="poster"><span class="pico">🖼️</span>poster_path</div>
+      <div class="why-main">
+        <div class="why-top"><span class="why-title">Apex</span><span class="src-badge src-reviews">리뷰 기반 · 긍정 2/5편</span></div>
+        <div class="why-summary">'Apex'가 먹히는 이유: 세계관·스토리, 몰입·재미, 연출·각본에서 호평. (긍정 리뷰 2/5편 기준)</div>
+        <div class="tags"><span class="tag">세계관·스토리</span><span class="tag">몰입·재미</span><span class="tag">연출·각본</span></div>
+      </div>
+    </div>
+
+    <!-- reviews 변형2 -->
+    <div class="why">
+      <div class="poster"><span class="pico">🖼️</span>poster_path</div>
+      <div class="why-main">
+        <div class="why-top"><span class="why-title">The Lord of the Rings: The Return of the King</span><span class="src-badge src-reviews">리뷰 기반 · 긍정 6/8편</span></div>
+        <div class="why-summary">'The Lord of the Rings: The Return of the King'가 먹히는 이유: 세계관·스토리, 영상미, 몰입·재미에서 호평. (긍정 리뷰 6/8편 기준)</div>
+        <div class="tags"><span class="tag">세계관·스토리</span><span class="tag">영상미</span><span class="tag">몰입·재미</span></div>
+      </div>
+    </div>
+
+    <!-- quantitative 폴백 변형 -->
+    <div class="why">
+      <div class="poster"><span class="pico">🖼️</span>poster_path</div>
+      <div class="why-main">
+        <div class="why-top"><span class="why-title">Enola Holmes 3</span><span class="src-badge src-quant">정량 폴백 · 리뷰 1편</span></div>
+        <div class="why-summary">'Enola Holmes 3'는 리뷰 표본이 적어(리뷰 1편) 정량 신호로 대체: 평점 7.063/10·투표 151표.</div>
+        <!-- strengths [] → 태그 없음 -->
+      </div>
+    </div>
+  </section>
+
+  <!-- 섹션 ③ 아직 안 한 것 -->
+  <section class="sec">
+    <div class="sec-title"><span class="badge">③</span><h3>아직 안 한 것 (기회)</h3><span class="hint">opportunity.json + charts.json</span></div>
+    <div class="anno"><b>바인딩:</b> tier_label_ko·gap·opportunity_index_0_100·comment(완성 문장). "왜?" 클릭 → charts.json 기반 공급vs수요 막대. low_confidence=true면 주의 문구 노출.</div>
+
+    <div class="opp-card">
+      <div class="opp-top">
+        <span class="tier">강한 기회</span>
+        <span style="color:#aaa;font-size:.82rem;">액션 · 14개 장르 중 기회 2위</span>
+        <div class="opp-index"><div class="n">82</div><div class="l">기회 지수(0–100)</div></div>
+      </div>
+      <div class="gap-line">수요가 공급을 <b>4.0%p</b> 앞섭니다</div>
+      <div class="opp-comment">액션는 수요가 공급을 4.0%p 앞섭니다. 시청 수요에 견줘 카탈로그가 얇은, 지금 가장 뚜렷한 기회 구간입니다.</div>
+      <button class="why-btn" onclick="toggleEvidence()">왜? — 근거 보기 ▾</button>
+      <div class="evidence" id="evidence">
+        <div class="chart-box"><canvas id="chGap"></canvas></div>
+        <div class="cap">공급(KR/US 카탈로그 %) vs 수요(글로벌 시청 %). gap = 수요−KR공급. charts.json 동일 인덱스 정렬 시리즈.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 공통: 출처 + 한계 -->
+  <div class="meta-foot">
+    <h4>출처 · 데이터 한계 (meta.json — 화면 필수 노출)</h4>
+    <ul>
+      <li>공급=KR/US 리전 카탈로그, 수요=Tudum 글로벌 → 축 불일치, gap은 방향성 지표</li>
+      <li>수요 표본 119편(장르별 5~53) 소표본</li>
+      <li>보유 스냅샷 2019, 현재 카탈로그는 TMDB 재구성값</li>
+      <li>장르 14종(International/History/Music/War/Western/TV 제외)</li>
+    </ul>
+    <div class="attrib">This product uses the TMDB API but is not endorsed or certified by TMDB.</div>
+    <div class="disclaimer">본 서비스는 Netflix와 무관한 비공식 프로젝트입니다. Netflix는 해당 사명의 상표권자이며, 본 프로젝트는 어떠한 제휴·보증 관계도 없습니다.</div>
+  </div>
+
+</div>
+
+<script>
+// 섹션③ "왜?" 근거 차트 — charts.json 예시 시리즈(action 인덱스 강조)
+function toggleEvidence(){
+  const el=document.getElementById('evidence');
+  const open=el.classList.toggle('open');
+  if(open && !el.dataset.drawn){ drawChart(); el.dataset.drawn='1'; }
+}
+function drawChart(){
+  const labels=['스릴러','액션','어드벤처','가족','공포','판타지','코미디','미스터리','애니','SF','범죄','로맨스','다큐','드라마'];
+  const krSupply=[8.6,8.6,4.1,3.7,3.1,3.4,17.8,2.9,4.0,2.1,6.6,8.6,6.1,20.2];
+  const demand  =[13.6,12.6,6.6,5.0,4.0,4.0,17.6,2.7,3.7,1.7,5.3,7.0,2.3,14.0];
+  new Chart(document.getElementById('chGap'),{
+    type:'bar',
+    data:{labels,datasets:[
+      {label:'KR 공급 %',data:krSupply,backgroundColor:labels.map(l=>l==='액션'?'#7a1f26':'#3a3a3a')},
+      {label:'수요 %',data:demand,backgroundColor:labels.map(l=>l==='액션'?'#E50914':'#555')}
+    ]},
+    options:{maintainAspectRatio:false,responsive:true,
+      plugins:{legend:{labels:{color:'#ddd'}},title:{display:true,text:'공급 vs 수요 (장르별 %)',color:'#fff'}},
+      scales:{x:{ticks:{color:'#999',font:{size:9}},grid:{color:'#222'}},
+              y:{ticks:{color:'#999'},grid:{color:'#222'}}}}
+  });
+}
+</script>
+</body>
+</html>

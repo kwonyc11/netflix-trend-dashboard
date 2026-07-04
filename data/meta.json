@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "pipeline_version": "1.0",
+  "generated_at": "2026-07-04T07:01:53Z",
+  "as_of": "2026-07-04",
+  "genre_count": 14,
+  "region_primary": "KR",
+  "region_compare": "US",
+  "data_sources": [
+    {
+      "name": "TMDB",
+      "use": "공급 카탈로그·재구성·현재 인기작·리뷰",
+      "license": "비상업(포트폴리오)"
+    },
+    {
+      "name": "Tudum Netflix Top10 (global)",
+      "use": "수요 신호",
+      "note": "부분표본 119편"
+    }
+  ],
+  "tmdb_attribution": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+  "genre_scope": {
+    "included_count": 14,
+    "basis": "공급·수요 분석셋에 존재하는 TMDB 영화 장르",
+    "excluded": [
+      {
+        "genre": "History",
+        "reason": "소수 장르(수요·표본 미미)"
+      },
+      {
+        "genre": "Music",
+        "reason": "소수 장르(수요·표본 미미)"
+      },
+      {
+        "genre": "War",
+        "reason": "소수 장르(수요·표본 미미)"
+      },
+      {
+        "genre": "Western",
+        "reason": "소수 장르(수요·표본 미미)"
+      },
+      {
+        "genre": "International",
+        "reason": "TMDB 대응 장르 없음(Netflix 카테고리)"
+      },
+      {
+        "genre": "TV genres",
+        "reason": "별도 taxonomy — 영화 파이프라인과 분리"
+      }
+    ],
+    "note": "브리프의 '19종'은 근거 데이터 부재. 검증 자산은 TMDB 영화 장르 14종 기준."
+  },
+  "signal_quality": {
+    "low_vote_min": 50,
+    "significant_pct": 20,
+    "rated_titles_n": 140,
+    "low_vote_n": 10,
+    "low_vote_ratio_pct": 7.1,
+    "significant": false,
+    "imdb_fallback_applied": false,
+    "policy": "ratio<20%→라벨링만 / ratio>=20%→라벨링 MVP출시 + IMDb폴백 스프린트2 (어느 쪽도 MVP 출시를 막지 않음)"
+  },
+  "insight_enrichment": {
+    "feature": "기능⑧ 먹히는 이유(리뷰 강점 요약)",
+    "total_slots": 140,
+    "reviews_source": 85,
+    "quantitative_or_pending": 55,
+    "pending_local": 0,
+    "note": "pending_local 0이어야 배포 가능. 로컬 build_data.py 실행 시 전량 생성됨."
+  },
+  "limitations": [
+    "공급=KR/US 리전 카탈로그, 수요=Tudum 글로벌 → 리전-글로벌 축 불일치, gap은 방향성 지표",
+    "수요 표본 119편(장르별 5~53) 소표본",
+    "보유 스냅샷 2019, 현재 카탈로그는 TMDB 재구성값",
+    "장르 14종(International/History/Music/War/Western/TV 제외)"
+  ]
+}

@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>지금, 이 장르 — 콘텐츠 기획 브리핑</title>
+<meta name="description" content="장르를 고르면 지금 뜨는 것·먹히는 이유·아직 안 한 것(기회)을 브리핑해주는 넷플릭스 인사이트 서비스">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23E50914'/%3E%3Ctext x='16' y='23' font-size='18' font-weight='900' text-anchor='middle' fill='white' font-family='Arial'%3EN%3C/text%3E%3C/svg%3E">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;}
+  :root{--red:#E50914;--bg:#141414;--card:#1c1c1c;--card2:#1f1f1f;--line:#2e2e2e;--muted:#999;}
+  body{font-family:'Segoe UI','Malgun Gothic',sans-serif;background:var(--bg);color:#e5e5e5;line-height:1.55;}
+  .wrap{max-width:960px;margin:0 auto;padding:20px 20px 60px;}
+  a{color:#8fb2ff;}
+  .visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;}
+
+  /* 헤더 · 자체 워드마크 (공식 로고 미사용) */
+  header.top{padding:22px 0 12px;border-bottom:1px solid #333;margin-bottom:18px;}
+  .wordmark{display:flex;align-items:center;gap:10px;}
+  .wm-mark{background:var(--red);color:#fff;font-weight:900;font-size:1.05rem;line-height:1;
+        border-radius:7px;padding:6px 10px;letter-spacing:1.5px;box-shadow:0 2px 8px rgba(229,9,20,.35);}
+  .wm-name{font-size:1.45rem;font-weight:800;color:#fff;letter-spacing:-.5px;}
+  .wm-name em{color:var(--red);font-style:normal;}
+  .wm-beta{font-size:.6rem;color:#888;border:1px solid #444;border-radius:4px;padding:1px 5px;align-self:flex-start;margin-top:2px;}
+  header.top .sub{color:var(--muted);font-size:.82rem;margin-top:7px;}
+
+  /* 장르 선택 */
+  .picker-label{font-size:.85rem;color:#bbb;margin-bottom:8px;}
+  .genres{display:flex;flex-wrap:wrap;gap:8px;}
+  .chip{background:#222;border:1px solid #444;border-radius:20px;padding:7px 15px;font:inherit;
+        font-size:.85rem;color:#ccc;cursor:pointer;}
+  .chip:hover{border-color:var(--red);}
+  .chip:focus-visible{outline:2px solid #8fb2ff;outline-offset:2px;}
+  .chip[aria-pressed="true"]{background:var(--red);border-color:var(--red);color:#fff;font-weight:bold;}
+  .chip .ico{margin-right:5px;font-size:.9rem;}
+
+  .brief-head{margin:24px 0 6px;}
+  .brief-head h2{font-size:1.35rem;color:#fff;}
+  .brief-head .as-of{color:#888;font-size:.78rem;margin-top:2px;}
+
+  section.sec{margin:26px 0;}
+  .sec-title{display:flex;align-items:baseline;gap:10px;margin-bottom:12px;flex-wrap:wrap;}
+  .sec-title .badge{background:var(--red);color:#fff;font-size:.72rem;font-weight:bold;border-radius:5px;padding:2px 8px;}
+  .sec-title h3{font-size:1.08rem;color:#fff;}
+  .sec-title .hint{color:#888;font-size:.76rem;}
+
+  /* 포스터 */
+  .poster,.poster-ph{width:46px;height:66px;border-radius:5px;flex-shrink:0;object-fit:cover;background:#2a2a2a;}
+  .poster-ph{border:1px dashed #4a4a4a;display:flex;flex-direction:column;align-items:center;justify-content:center;
+        color:#777;font-size:.72rem;gap:2px;}
+
+  /* 섹션① 트렌딩 */
+  .work{display:flex;gap:12px;background:var(--card);border:1px solid var(--line);border-radius:9px;
+        padding:11px 13px;margin-bottom:9px;align-items:center;}
+  .rank{font-size:1.15rem;font-weight:800;color:var(--red);width:26px;text-align:center;flex-shrink:0;}
+  .w-body{flex:1;min-width:0;}
+  .w-title{font-size:.98rem;color:#fff;font-weight:600;}
+  .w-meta{font-size:.8rem;color:#aaa;margin-top:2px;}
+  .w-meta .sep{color:#555;}
+  .lowvote{display:inline-block;background:#3a2a12;color:#f0b352;border:1px solid #6b4d1e;
+        font-size:.68rem;border-radius:4px;padding:1px 6px;margin-left:6px;vertical-align:middle;}
+
+  /* 섹션② 먹히는 이유 */
+  .why{display:flex;gap:12px;align-items:flex-start;background:var(--card);border:1px solid var(--line);
+        border-radius:9px;padding:13px 15px;margin-bottom:10px;}
+  .why-main{flex:1;min-width:0;}
+  .why-top{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:6px;}
+  .why-title{font-size:.96rem;color:#fff;font-weight:600;}
+  .src-badge{font-size:.68rem;border-radius:4px;padding:2px 7px;white-space:nowrap;}
+  .src-reviews{background:#12261a;color:#5fd08a;border:1px solid #245c3a;}
+  .src-quant{background:#2a2130;color:#c79be0;border:1px solid #543a63;}
+  .why-summary{font-size:.9rem;color:#cfcfcf;}
+  .tags{margin-top:9px;display:flex;flex-wrap:wrap;gap:6px;}
+  .tag{background:#2a2a2a;border:1px solid #4a4a4a;border-radius:14px;padding:3px 10px;font-size:.76rem;color:#ddd;}
+  .more-btn{background:#222;color:#eee;border:1px solid #4a4a4a;border-radius:7px;padding:9px 16px;
+        font:inherit;font-size:.83rem;cursor:pointer;width:100%;margin-top:2px;}
+  .more-btn:hover{border-color:var(--red);}
+  .more-btn:focus-visible{outline:2px solid #8fb2ff;outline-offset:2px;}
+
+  /* 섹션③ 기회 */
+  .opp-card{background:linear-gradient(135deg,#2a0a0e,#1a1a1a);border:1px solid #5a1620;border-radius:11px;padding:18px;}
+  .opp-top{display:flex;align-items:center;gap:12px;flex-wrap:wrap;}
+  .tier{color:#fff;font-weight:bold;font-size:.8rem;border-radius:6px;padding:4px 11px;}
+  .tier.t-strong_opportunity{background:var(--red);}
+  .tier.t-opportunity{background:#b20710;}
+  .tier.t-balanced{background:#555;}
+  .tier.t-oversupplied{background:#3d4b6b;}
+  .tier.t-strong_oversupply{background:#2b3350;}
+  .opp-rank{color:#aaa;font-size:.82rem;}
+  .opp-index{margin-left:auto;text-align:right;}
+  .opp-index .n{font-size:1.7rem;font-weight:800;color:var(--red);}
+  .opp-index .l{font-size:.68rem;color:#999;}
+  .gap-line{font-size:.95rem;color:#fff;margin:12px 0 4px;}
+  .gap-line b{color:#ff6b74;}
+  .opp-comment{font-size:.88rem;color:#cfcfcf;}
+  .lowconf{margin-top:10px;font-size:.78rem;color:#f0b352;background:#3a2a12;border:1px solid #6b4d1e;
+        border-radius:6px;padding:7px 10px;}
+  .why-btn{margin-top:14px;background:#333;color:#fff;border:1px solid #555;border-radius:7px;
+        padding:9px 18px;font:inherit;font-size:.85rem;cursor:pointer;}
+  .why-btn:hover{border-color:var(--red);}
+  .why-btn:focus-visible{outline:2px solid #8fb2ff;outline-offset:2px;}
+  .evidence{margin-top:14px;background:#161616;border:1px solid var(--line);border-radius:9px;padding:14px;}
+  .evidence[hidden]{display:none;}
+  .chart-box{position:relative;height:300px;}
+  .evidence .cap{font-size:.78rem;color:#999;margin-top:8px;}
+
+  /* 공통 출처/한계 */
+  .meta-foot{margin-top:34px;border-top:1px solid #333;padding-top:16px;font-size:.76rem;color:#888;}
+  .meta-foot h4{color:#aaa;font-size:.8rem;margin-bottom:6px;}
+  .meta-foot ul{margin:6px 0 0 18px;}
+  .meta-foot li{margin-bottom:3px;}
+  .attrib{color:#777;margin-top:10px;font-style:italic;}
+  .disclaimer{color:#999;margin-top:8px;padding-top:8px;border-top:1px dotted #333;}
+
+  /* 로딩 / 에러 */
+  .state{padding:40px 10px;text-align:center;color:#999;font-size:.95rem;}
+  .state.err{color:#ff8a8a;}
+
+  @media (max-width:600px){
+    .wrap{padding:14px 13px 50px;}
+    .wm-name{font-size:1.25rem;}
+    .opp-index{margin-left:0;text-align:left;}
+    .sec-title{gap:6px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="top">
+    <div class="wordmark">
+      <span class="wm-mark">NOW</span>
+      <span class="wm-name">지금, <em>이 장르</em></span>
+      <span class="wm-beta">beta</span>
+    </div>
+    <p class="sub">장르를 고르면 ①지금 뜨는 것 ②먹히는 이유 ③아직 안 한 것(기회)을 한 화면에 · 콘텐츠 기획 지망생을 위한 인사이트</p>
+  </header>
+
+  <main id="app">
+    <div class="state" id="loading" role="status">데이터를 불러오는 중…</div>
+  </main>
+
+</div>
+
+<script>
+"use strict";
+const DATA_DIR = "./data/";
+const FILES = ["genres.json","trending_by_genre.json","opportunity.json","charts.json","meta.json"];
+const S = { genres:[], genreById:{}, trending:{}, opportunity:[], oppById:{}, charts:null, meta:null, selected:null, chart:null };
+
+// ---------- 유틸 ----------
+function el(tag, cls, html){ const e=document.createElement(tag); if(cls)e.className=cls; if(html!=null)e.innerHTML=html; return e; }
+function esc(s){ return String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+function num(n){ return Number(n).toLocaleString("ko-KR"); }
+function rating(n){ return (Math.round(Number(n)*10)/10).toFixed(1); }
+
+// KPI: GoatCounter 커스텀 이벤트(도달률·체류). count.js는 async라 준비될 때까지 짧게 재시도.
+// 로컬(localhost/file)에서는 count.js가 기본 필터하므로 개발 중 집계 오염 없음.
+function gcTrack(path, title){
+  try{
+    if(location.protocol==="file:") return;
+    var send=function(){ if(window.goatcounter && window.goatcounter.count){ window.goatcounter.count({path:path, title:title, event:true}); return true; } return false; };
+    if(!send()){ var n=0, t=setInterval(function(){ if(send() || ++n>20) clearInterval(t); }, 200); }
+  }catch(e){/* 트래킹 실패는 무시 */}
+}
+
+function posterNode(item){
+  const url = item && item.poster_url;
+  if(url){
+    const img = el("img","poster");
+    img.src = url; img.alt = (item.title||"") + " 포스터"; img.loading="lazy"; img.decoding="async";
+    img.addEventListener("error", ()=>{ img.replaceWith(posterPlaceholder()); });
+    return img;
+  }
+  return posterPlaceholder();
+}
+function posterPlaceholder(){ return el("div","poster-ph",'<span aria-hidden="true">🖼️</span><span>없음</span>'); }
+
+// ---------- 부트 ----------
+async function boot(){
+  try{
+    const results = await Promise.all(FILES.map(async f=>{
+      const res = await fetch(DATA_DIR+f, {cache:"no-cache"});
+      if(!res.ok) throw new Error(f+" HTTP "+res.status);
+      return res.json();
+    }));
+    const [genres, trending, opportunity, charts, meta] = results;
+
+    S.genres = (genres.genres)||[];
+    S.genres.forEach(g=>S.genreById[g.id]=g);
+    S.trending = (trending.by_genre)||{};
+    S.trendingMeta = trending;
+    S.opportunity = (opportunity.genres)||[];
+    S.opportunity.forEach(o=>S.oppById[o.id]=o);
+    S.opportunityMeta = opportunity;
+    S.charts = charts;
+    S.meta = meta;
+
+    // 최초 진입: 기회 지수 1위(rank==1) 장르 자동 선택
+    let start = S.opportunity.find(o=>o.rank===1);
+    S.selected = (start && start.id) || (S.genres[0] && S.genres[0].id);
+
+    render();
+
+    // KPI 체류: 30초 이상 머무르면 engagement 이벤트 1회 전송
+    setTimeout(function(){ gcTrack("engaged-30s", "30초 이상 체류"); }, 30000);
+  }catch(err){
+    const app=document.getElementById("app");
+    app.innerHTML="";
+    app.appendChild(el("div","state err",
+      "데이터를 불러오지 못했습니다. 이 페이지는 정적 서버(예: GitHub Pages 또는 로컬 http 서버)에서 열어야 합니다.<br>"+
+      '<span style="color:#c77;font-size:.8rem;">('+esc(err.message)+")</span>"));
+  }
+}
+
+// ---------- 렌더 ----------
+function render(){
+  const app=document.getElementById("app");
+  app.innerHTML="";
+
+  // 장르 선택
+  app.appendChild(el("p","picker-label",'1) 장르 선택 <span style="color:#666;">— 14종</span>'));
+  const picker = el("div","genres");
+  picker.setAttribute("role","group");
+  picker.setAttribute("aria-label","장르 선택");
+  S.genres.forEach(g=>{
+    const b = el("button","chip",'<span class="ico" aria-hidden="true">'+esc(g.icon||"")+"</span>"+esc(g.name_ko));
+    b.type="button";
+    b.setAttribute("aria-pressed", g.id===S.selected ? "true":"false");
+    b.addEventListener("click", ()=>selectGenre(g.id));
+    picker.appendChild(b);
+  });
+  app.appendChild(picker);
+
+  // 브리핑 컨테이너
+  const brief = el("div"); brief.id="brief";
+  app.appendChild(brief);
+  renderBrief();
+
+  // 공통 출처/한계
+  app.appendChild(renderFooter());
+}
+
+function selectGenre(id){
+  if(id===S.selected) return;
+  S.selected=id;
+  // 칩 상태 갱신
+  document.querySelectorAll(".chip").forEach((b,i)=>{
+    b.setAttribute("aria-pressed", S.genres[i].id===id ? "true":"false");
+  });
+  renderBrief();
+  const h=document.querySelector(".brief-head");
+  if(h) h.scrollIntoView({behavior:"smooth",block:"start"});
+}
+
+function renderBrief(){
+  const g = S.genreById[S.selected];
+  const wrap = document.getElementById("brief");
+  wrap.innerHTML="";
+
+  const head = el("div","brief-head");
+  head.appendChild(el("h2",null, (g?esc(g.icon+" "+g.name_ko):esc(S.selected))+" 브리핑"));
+  const region = S.trendingMeta.region||"KR", prov = S.trendingMeta.provider||"넷플릭스";
+  head.appendChild(el("div","as-of","기준일 "+esc(S.trendingMeta.as_of||S.meta.as_of||"")+" · 리전 "+esc(region)+" · "+esc(prov)));
+  wrap.appendChild(head);
+
+  wrap.appendChild(renderTrending());
+  wrap.appendChild(renderWhy());
+  wrap.appendChild(renderOpportunity());
+
+  // KPI 도달률: 어느 장르 브리핑을 봤는지 이벤트 전송
+  gcTrack("briefing-"+S.selected, (g?g.name_ko:S.selected)+" 브리핑 도달");
+}
+
+// 섹션① 지금 뜨는 것
+function renderTrending(){
+  const items = (S.trending[S.selected]||[]).slice().sort((a,b)=>a.rank-b.rank);
+  const sec = el("section","sec");
+  const t = el("div","sec-title");
+  t.innerHTML='<span class="badge">①</span><h3>지금 뜨는 것</h3><span class="hint">현재 인기 상위</span>';
+  sec.appendChild(t);
+
+  if(!items.length){ sec.appendChild(el("div","state","이 장르의 트렌딩 데이터가 없습니다.")); return sec; }
+
+  items.forEach(it=>{
+    const row = el("div","work");
+    row.appendChild(el("div","rank", String(it.rank)));
+    row.appendChild(posterNode(it));
+    const body = el("div","w-body");
+    body.appendChild(el("div","w-title", esc(it.title)));
+    let meta = esc(it.release_year||"")+' <span class="sep">·</span> ⭐ '+rating(it.vote_average)+
+               ' <span style="color:#777;">('+num(it.vote_count)+"표)</span>";
+    if(it.low_vote) meta += '<span class="lowvote" title="투표 수가 적어 평점 신뢰도가 낮습니다">평가 수 적음</span>';
+    body.appendChild(el("div","w-meta", meta));
+    row.appendChild(body);
+    sec.appendChild(row);
+  });
+  return sec;
+}
+
+// 섹션② 먹히는 이유 — 상위 3 + 더 보기
+function renderWhy(){
+  const items = (S.trending[S.selected]||[]).slice().sort((a,b)=>a.rank-b.rank);
+  const sec = el("section","sec");
+  const t = el("div","sec-title");
+  t.innerHTML='<span class="badge">②</span><h3>먹히는 이유</h3><span class="hint">작품별 강점 요약</span>';
+  sec.appendChild(t);
+
+  if(!items.length){ sec.appendChild(el("div","state","표시할 작품이 없습니다.")); return sec; }
+
+  const makeCard = (it)=>{
+    const card = el("div","why");
+    card.appendChild(posterNode(it));
+    const main = el("div","why-main");
+    const ins = it.insight||{};
+    let badge;
+    if(ins.source==="reviews"){
+      const pos = (ins.positive_count!=null && ins.review_count!=null) ? " · 긍정 "+ins.positive_count+"/"+ins.review_count+"편" : "";
+      badge='<span class="src-badge src-reviews">리뷰 기반'+pos+"</span>";
+    }else{
+      badge='<span class="src-badge src-quant">정량 폴백 · 리뷰 '+(ins.review_count!=null?ins.review_count:0)+"편</span>";
+    }
+    main.appendChild(el("div","why-top",'<span class="why-title">'+esc(it.title)+"</span>"+badge));
+    main.appendChild(el("div","why-summary", esc(ins.summary||"")));
+    if(Array.isArray(ins.strengths) && ins.strengths.length){
+      const tags = el("div","tags");
+      ins.strengths.forEach(s=>tags.appendChild(el("span","tag", esc(s))));
+      main.appendChild(tags);
+    }
+    card.appendChild(main);
+    return card;
+  };
+
+  items.slice(0,3).forEach(it=>sec.appendChild(makeCard(it)));
+
+  const rest = items.slice(3);
+  if(rest.length){
+    const hidden = el("div"); hidden.id="why-rest"; hidden.hidden=true;
+    rest.forEach(it=>hidden.appendChild(makeCard(it)));
+    const btn = el("button","more-btn", "더 보기 (+"+rest.length+") ▾");
+    btn.type="button"; btn.setAttribute("aria-expanded","false"); btn.setAttribute("aria-controls","why-rest");
+    btn.addEventListener("click", ()=>{
+      const open = hidden.hidden;
+      hidden.hidden = !open;
+      btn.setAttribute("aria-expanded", open?"true":"false");
+      btn.textContent = open ? "접기 ▴" : ("더 보기 (+"+rest.length+") ▾");
+    });
+    sec.appendChild(hidden);
+    sec.appendChild(btn);
+  }
+  return sec;
+}
+
+// 섹션③ 아직 안 한 것 (기회)
+function renderOpportunity(){
+  const o = S.oppById[S.selected];
+  const sec = el("section","sec");
+  const t = el("div","sec-title");
+  t.innerHTML='<span class="badge">③</span><h3>아직 안 한 것 (기회)</h3><span class="hint">수요 vs 공급 격차</span>';
+  sec.appendChild(t);
+
+  if(!o){ sec.appendChild(el("div","state","이 장르의 기회 데이터가 없습니다.")); return sec; }
+
+  const card = el("div","opp-card");
+  const top = el("div","opp-top");
+  top.appendChild(el("span","tier t-"+esc(o.tier), esc(o.tier_label_ko)));
+  top.appendChild(el("span","opp-rank", esc(o.name_ko)+" · 14개 장르 중 기회 "+o.rank+"위"));
+  if(o.opportunity_index_0_100!=null){
+    const idx = el("div","opp-index"); idx.innerHTML='<div class="n">'+o.opportunity_index_0_100+'</div><div class="l">기회 지수(0–100)</div>';
+    top.appendChild(idx);
+  }
+  card.appendChild(top);
+
+  const dir = o.gap>=0 ? "수요가 공급을" : "공급이 수요를";
+  card.appendChild(el("div","gap-line", dir+" <b>"+Math.abs(o.gap).toFixed(1)+"%p</b> "+(o.gap>=0?"앞섭니다":"앞섭니다")));
+  card.appendChild(el("div","opp-comment", esc(o.comment||"")));
+  if(o.low_confidence){
+    card.appendChild(el("div","lowconf","⚠ 이 장르는 수요 표본이 작아 방향성 참고용입니다."));
+  }
+
+  const btn = el("button","why-btn","왜? — 근거 보기 ▾");
+  btn.type="button"; btn.setAttribute("aria-expanded","false"); btn.setAttribute("aria-controls","evidence");
+  const ev = el("div","evidence"); ev.id="evidence"; ev.hidden=true;
+  ev.innerHTML='<div class="chart-box"><canvas id="chGap" role="img" aria-label="장르별 공급 대비 수요 비율 막대 그래프"></canvas></div>'+
+               '<div class="cap">KR 공급(카탈로그 %) vs 수요(글로벌 시청 %). 선택 장르를 강조 표시. gap = 수요 − KR공급.</div>';
+  btn.addEventListener("click", ()=>{
+    const open = ev.hidden;
+    ev.hidden = !open;
+    btn.setAttribute("aria-expanded", open?"true":"false");
+    btn.textContent = open ? "근거 접기 ▴" : "왜? — 근거 보기 ▾";
+    if(open) drawEvidenceChart();
+  });
+  card.appendChild(btn);
+  card.appendChild(ev);
+  sec.appendChild(card);
+  return sec;
+}
+
+function drawEvidenceChart(){
+  const c = S.charts; if(!c) return;
+  const cvs = document.getElementById("chGap"); if(!cvs) return;
+  if(S.chart){ S.chart.destroy(); S.chart=null; }
+  // 라벨은 한글명으로(genre_ids → name_ko), 선택 장르 강조
+  const ids = c.genre_ids||[];
+  const labels = ids.map(id => (S.genreById[id] ? S.genreById[id].name_ko : id));
+  const selIdx = ids.indexOf(S.selected);
+  const supply = (c.series&&c.series.kr_supply_pct)||[];
+  const demand = (c.series&&c.series.demand_pct)||[];
+  const red="#E50914", redDim="#7a1f26", gray="#555", grayDim="#3a3a3a";
+  S.chart = new Chart(cvs, {
+    type:"bar",
+    data:{ labels, datasets:[
+      {label:"KR 공급 %", data:supply, backgroundColor:labels.map((_,i)=>i===selIdx?redDim:grayDim)},
+      {label:"수요 %",    data:demand, backgroundColor:labels.map((_,i)=>i===selIdx?red:gray)}
+    ]},
+    options:{ maintainAspectRatio:false, responsive:true,
+      plugins:{ legend:{labels:{color:"#ddd"}},
+        title:{display:true,text:"공급 vs 수요 (장르별 %) · gap 내림차순",color:"#fff"} },
+      scales:{ x:{ticks:{color:"#999",font:{size:9}},grid:{color:"#222"}},
+               y:{ticks:{color:"#999"},grid:{color:"#222"}} } }
+  });
+}
+
+function renderFooter(){
+  const m = S.meta||{};
+  const foot = el("div","meta-foot");
+  foot.appendChild(el("h4",null,"출처 · 데이터 한계"));
+  const ul = el("ul");
+  (m.limitations||[]).forEach(t=>ul.appendChild(el("li",null,esc(t))));
+  foot.appendChild(ul);
+  const srcNames = (m.data_sources||[]).map(d=>d.name).join(" · ");
+  if(srcNames) foot.appendChild(el("div",null,'<span style="color:#aaa;">데이터:</span> '+esc(srcNames)));
+  foot.appendChild(el("div","attrib", esc(m.tmdb_attribution||"This product uses the TMDB API but is not endorsed or certified by TMDB.")));
+  foot.appendChild(el("div","disclaimer","본 서비스는 Netflix와 무관한 비공식 프로젝트입니다. Netflix는 해당 사명의 상표권자이며, 본 프로젝트는 어떠한 제휴·보증 관계도 없습니다."));
+  return foot;
+}
+
+document.addEventListener("DOMContentLoaded", boot);
+</script>
+
+<!-- KPI: GoatCounter (쿠키리스·프라이버시 친화). 페이지뷰 자동 집계 + 위 커스텀 이벤트.
+     로컬(localhost/file)에서는 기본 필터되어 집계되지 않음. 대시보드: https://kwonyoochul.goatcounter.com/ -->
+<script data-goatcounter="https://kwonyoochul.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
